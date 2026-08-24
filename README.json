@@ -1,6 +1,48 @@
 {
   "items": [
     {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Fuzzing-101",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 392405338,
+            "language": null,
+            "last_commit": "2026-06-16T09:38:26Z",
+            "owner": "antonio-morales",
+            "repo": "Fuzzing101",
+            "stars": 3818
+          }
+        }
+      ],
+      "title": "Books"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 471225362,
+            "language": "C",
+            "last_commit": "2022-05-11T04:50:08Z",
+            "owner": "purseclab",
+            "repo": "fuzzusb",
+            "stars": 37
+          }
+        }
+      ],
+      "title": "2022 (5 papers)"
+    },
+    {
       "description": "A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from fuzzing-survey.org. Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.",
       "items": [
         {
@@ -51,7 +93,7 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-21T18:38:05Z",
+                "last_commit": "2026-08-24T14:12:26Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6307
@@ -464,13 +506,35 @@
           "description": null,
           "node_type": "group",
           "title": "Blockchain"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Squirrel",
+              "description": "A fuzzer for database management systems (DBMSs).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 268936983,
+                "language": "C++",
+                "last_commit": "2023-01-23T20:10:18Z",
+                "owner": "s3team",
+                "repo": "Squirrel",
+                "stars": 214
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "DBMS"
         }
       ],
       "title": "Tools"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T06:24:07.499Z",
+    "last_updated": "2026-08-24T14:18:25.064Z",
     "original_repository": "cpuu/awesome-fuzzing",
     "original_repository_id": 154854935,
     "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
