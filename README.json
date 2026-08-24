@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-22T06:58:17Z",
+                "last_commit": "2026-08-23T09:13:47Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6731
+                "stars": 6733
               }
             },
             {
@@ -54,7 +54,7 @@
                 "last_commit": "2026-08-21T18:38:05Z",
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6305
+                "stars": 6307
               }
             },
             {
@@ -66,7 +66,7 @@
                 "archived": false,
                 "id": 6600033,
                 "language": "C",
-                "last_commit": "2026-08-22T21:35:18Z",
+                "last_commit": "2026-08-23T16:07:07Z",
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
@@ -470,7 +470,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T06:01:58.527Z",
+    "last_updated": "2026-08-24T06:24:07.499Z",
     "original_repository": "cpuu/awesome-fuzzing",
     "original_repository_id": 154854935,
     "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
