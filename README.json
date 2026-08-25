@@ -56,10 +56,10 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-23T09:13:47Z",
+                "last_commit": "2026-08-24T18:26:58Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6733
+                "stars": 6734
               }
             },
             {
@@ -534,7 +534,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:18:25.064Z",
+    "last_updated": "2026-08-25T06:07:01.843Z",
     "original_repository": "cpuu/awesome-fuzzing",
     "original_repository_id": 154854935,
     "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
