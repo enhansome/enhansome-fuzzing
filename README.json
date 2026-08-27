@@ -56,7 +56,7 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-26T14:41:28Z",
+                "last_commit": "2026-08-27T16:06:41Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
                 "stars": 6736
@@ -93,7 +93,7 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-27T11:37:04Z",
+                "last_commit": "2026-08-27T14:52:09Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6309
@@ -534,7 +534,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:39:03.194Z",
+    "last_updated": "2026-08-27T16:49:04.738Z",
     "original_repository_info": {
       "archived": false,
       "id": 154854935,
