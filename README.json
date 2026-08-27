@@ -56,7 +56,7 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-24T18:26:58Z",
+                "last_commit": "2026-08-26T14:41:28Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
                 "stars": 6736
@@ -93,7 +93,7 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-25T15:24:39Z",
+                "last_commit": "2026-08-27T11:37:04Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6309
@@ -108,7 +108,7 @@
                 "archived": false,
                 "id": 6600033,
                 "language": "C",
-                "last_commit": "2026-08-23T16:07:07Z",
+                "last_commit": "2026-08-26T16:11:00Z",
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
@@ -280,10 +280,10 @@
                 "archived": false,
                 "id": 827721685,
                 "language": "Rust",
-                "last_commit": "2026-08-25T09:58:02Z",
+                "last_commit": "2026-08-26T14:34:32Z",
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
-                "stars": 221
+                "stars": 222
               }
             },
             {
@@ -521,7 +521,7 @@
                 "last_commit": "2023-01-23T20:10:18Z",
                 "owner": "s3team",
                 "repo": "Squirrel",
-                "stars": 214
+                "stars": 215
               }
             }
           ],
@@ -534,9 +534,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T06:05:56.260Z",
-    "original_repository": "cpuu/awesome-fuzzing",
-    "original_repository_id": 154854935,
+    "last_updated": "2026-08-27T11:39:03.194Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 154854935,
+      "language": null,
+      "last_commit": "2026-07-09T01:53:13Z",
+      "owner": "cpuu",
+      "repo": "awesome-fuzzing",
+      "stars": 990
+    },
     "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
     "enhanced_repository": "enhansome/enhansome-fuzzing",
     "enhanced_repository_description": null,
