@@ -15,8 +15,9 @@
             "last_commit": "2026-06-16T09:38:26Z",
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3818
-          }
+            "stars": 3819
+          },
+          "first_seen": "2026-08-28T17:42:49.031Z"
         }
       ],
       "title": "Books"
@@ -37,7 +38,8 @@
             "owner": "purseclab",
             "repo": "fuzzusb",
             "stars": 37
-          }
+          },
+          "first_seen": "2026-08-28T17:42:49.031Z"
         }
       ],
       "title": "2022 (5 papers)"
@@ -56,11 +58,12 @@
                 "archived": false,
                 "id": 189044704,
                 "language": "C",
-                "last_commit": "2026-08-27T16:06:41Z",
+                "last_commit": "2026-08-28T09:30:22Z",
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6736
-              }
+                "stars": 6735
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -75,7 +78,8 @@
                 "owner": "AngoraFuzzer",
                 "repo": "Angora",
                 "stars": 956
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -93,11 +97,12 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-27T14:52:09Z",
+                "last_commit": "2026-08-28T14:06:25Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6309
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -112,7 +117,8 @@
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -127,7 +133,8 @@
                 "owner": "RUB-SysSec",
                 "repo": "kAFL",
                 "stars": 595
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -142,7 +149,8 @@
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
                 "stars": 385
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -157,7 +165,8 @@
                 "owner": "compsec-snu",
                 "repo": "razzer",
                 "stars": 375
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -172,7 +181,8 @@
                 "owner": "sslab-gatech",
                 "repo": "janus",
                 "stars": 238
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -187,7 +197,8 @@
                 "owner": "sslab-gatech",
                 "repo": "hydra",
                 "stars": 177
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -202,7 +213,8 @@
                 "owner": "SoftSec-KAIST",
                 "repo": "NTFuzz",
                 "stars": 113
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -217,7 +229,8 @@
                 "owner": "SoftSec-KAIST",
                 "repo": "IMF",
                 "stars": 112
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -232,7 +245,8 @@
                 "owner": "ucsb-seclab",
                 "repo": "actor",
                 "stars": 41
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -247,7 +261,8 @@
                 "owner": "sslab-gatech",
                 "repo": "krace",
                 "stars": 32
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -269,7 +284,8 @@
                 "owner": "iromise",
                 "repo": "fans",
                 "stars": 266
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -284,7 +300,8 @@
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 222
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -299,7 +316,8 @@
                 "owner": "SeUniVr",
                 "repo": "RestTestGen",
                 "stars": 65
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -314,7 +332,8 @@
                 "owner": "puppet-meteor",
                 "repo": "MINER",
                 "stars": 44
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -329,7 +348,8 @@
                 "owner": "ChijinZ",
                 "repo": "Minerva",
                 "stars": 35
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -344,7 +364,8 @@
                 "owner": "ForAllSecure",
                 "repo": "GraphFuzz",
                 "stars": 10
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -366,7 +387,8 @@
                 "owner": "compsec-snu",
                 "repo": "difuzz-rtl",
                 "stars": 102
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -381,7 +403,8 @@
                 "owner": "sycuricon",
                 "repo": "MorFuzz",
                 "stars": 52
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -396,7 +419,8 @@
                 "owner": "tudinfse",
                 "repo": "SpecFuzz",
                 "stars": 32
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -411,7 +435,8 @@
                 "owner": "vernamlab",
                 "repo": "medusa",
                 "stars": 20
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -433,7 +458,8 @@
                 "owner": "sefcom",
                 "repo": "Witcher",
                 "stars": 109
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -448,7 +474,8 @@
                 "owner": "seclab-fudan",
                 "repo": "TEFuzz",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -463,7 +490,8 @@
                 "owner": "shouc",
                 "repo": "corbfuzz",
                 "stars": 6
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -485,7 +513,8 @@
                 "owner": "snuspl",
                 "repo": "fluffy",
                 "stars": 62
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -500,7 +529,8 @@
                 "owner": "ConsensusFuzz",
                 "repo": "LOKI",
                 "stars": 20
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -522,7 +552,8 @@
                 "owner": "s3team",
                 "repo": "Squirrel",
                 "stars": 215
-              }
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
             }
           ],
           "description": null,
@@ -534,7 +565,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T16:49:04.738Z",
+    "last_updated": "2026-08-28T17:42:49.031Z",
     "original_repository_info": {
       "archived": false,
       "id": 154854935,
@@ -542,7 +573,7 @@
       "last_commit": "2026-07-09T01:53:13Z",
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 990
+      "stars": 991
     },
     "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
     "enhanced_repository": "enhansome/enhansome-fuzzing",
