@@ -16,7 +16,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,819 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,820 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -582,7 +582,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,735 | 🐛 22 | 🌐 C | 📅 2026-08-28 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,737 | 🐛 22 | 🌐 C | 📅 2026-08-28 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 956 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 
 ### Kernel
@@ -651,4 +651,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-28._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-29._
