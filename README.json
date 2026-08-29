@@ -85,7 +85,7 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-08-28T09:30:22Z",
+                "last_commit": "2026-08-29T11:41:21Z",
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
@@ -126,7 +126,7 @@
                 "open_issues": 41,
                 "owner": "AngoraFuzzer",
                 "repo": "Angora",
-                "stars": 956,
+                "stars": 957,
                 "topics": [
                   "afl",
                   "data-flow-analysis",
@@ -162,7 +162,7 @@
                 "open_issues": 620,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6309,
+                "stars": 6310,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -810,7 +810,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T04:34:30.240Z",
+    "last_updated": "2026-08-29T11:47:33.520Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",

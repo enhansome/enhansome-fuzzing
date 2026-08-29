@@ -582,12 +582,12 @@ A curated collection of open-source fuzzing tools, organized by target category 
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,737 | 🐛 22 | 🌐 C | 📅 2026-08-28 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-* [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 956 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,737 | 🐛 22 | 🌐 C | 📅 2026-08-29 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,309 | 🐛 620 | 🌐 Go | 📅 2026-08-28 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,310 | 🐛 620 | 🌐 Go | 📅 2026-08-28 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 905 | 🐛 1 | 🌐 C | 📅 2026-08-26 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
