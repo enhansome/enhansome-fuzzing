@@ -582,7 +582,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,737 | 🐛 22 | 🌐 C | 📅 2026-08-29 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,740 | 🐛 22 | 🌐 C | 📅 2026-08-29 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 
 ### Kernel
@@ -604,7 +604,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 ### API
 
 * [FANS](https://github.com/iromise/fans) ⭐ 266 | 🐛 0 | 🌐 C++ | 📅 2020-09-23 - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
-* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 222 | 🐛 37 | 🌐 Rust | 📅 2026-08-26 - A coverage-guided REST API fuzzer developed on top of LibAFL.
+* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 223 | 🐛 37 | 🌐 Rust | 📅 2026-08-26 - A coverage-guided REST API fuzzer developed on top of LibAFL.
 * [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 65 | 🐛 2 | 🌐 Java | 📅 2025-12-21 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
 * [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
 * [Minerva](https://github.com/ChijinZ/Minerva) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2024-03-08 - A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
@@ -651,4 +651,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-29._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-30._

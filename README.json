@@ -85,11 +85,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-08-29T11:41:21Z",
+                "last_commit": "2026-08-29T13:37:55Z",
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6737,
+                "stars": 6740,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -463,7 +463,7 @@
                 "open_issues": 37,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
-                "stars": 222,
+                "stars": 223,
                 "topics": [
                   "api-fuzzer",
                   "fuzzer",
@@ -810,7 +810,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T11:47:33.520Z",
+    "last_updated": "2026-08-30T10:41:28.245Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
