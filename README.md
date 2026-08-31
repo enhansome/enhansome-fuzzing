@@ -582,16 +582,16 @@ A curated collection of open-source fuzzing tools, organized by target category 
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,740 | 🐛 22 | 🌐 C | 📅 2026-08-29 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,741 | 🐛 22 | 🌐 C | 📅 2026-08-31 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,310 | 🐛 620 | 🌐 Go | 📅 2026-08-28 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
-* [Trinity](https://github.com/kernelslacker/trinity) ⭐ 905 | 🐛 1 | 🌐 C | 📅 2026-08-26 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,313 | 🐛 621 | 🌐 Go | 📅 2026-08-28 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [Trinity](https://github.com/kernelslacker/trinity) ⭐ 906 | 🐛 1 | 🌐 C | 📅 2026-08-26 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
-* [Razzer](https://github.com/compsec-snu/razzer) ⭐ 375 | 🐛 9 | 🌐 C | 📅 2019-07-10 (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
+* [Razzer](https://github.com/compsec-snu/razzer) ⭐ 376 | 🐛 9 | 🌐 C | 📅 2019-07-10 (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
 * [Janus](https://github.com/sslab-gatech/janus) ⭐ 238 | 🐛 6 | 🌐 C | 📅 2019-12-23 (2019) - A file system fuzzer that finds memory corruptions in Linux kernel file systems by mutating both filesystem images and syscall sequences simultaneously.
 * [Hydra](https://github.com/sslab-gatech/hydra) ⭐ 177 | 🐛 6 | 🌐 C | 📅 2022-08-08 (2019) - A fuzzing framework for automatically discovering semantic bugs in file systems using input mutators, feedback engines, and customizable checkers.
 * [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 113 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
@@ -604,7 +604,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 ### API
 
 * [FANS](https://github.com/iromise/fans) ⭐ 266 | 🐛 0 | 🌐 C++ | 📅 2020-09-23 - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
-* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 223 | 🐛 37 | 🌐 Rust | 📅 2026-08-26 - A coverage-guided REST API fuzzer developed on top of LibAFL.
+* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 223 | 🐛 37 | 🌐 Rust | 📅 2026-08-31 - A coverage-guided REST API fuzzer developed on top of LibAFL.
 * [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 65 | 🐛 2 | 🌐 Java | 📅 2025-12-21 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
 * [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
 * [Minerva](https://github.com/ChijinZ/Minerva) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2024-03-08 - A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
@@ -651,4 +651,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-30._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-31._
