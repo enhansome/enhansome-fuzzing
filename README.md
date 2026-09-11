@@ -16,7 +16,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,828 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,827 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -35,7 +35,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 To achieve a well-defined scope, I have chosen to include publications on fuzzing from 4 top major security conferences (2008–2025): (i) Network and Distributed System Security Symposium (NDSS), (ii) IEEE Symposium on Security and Privacy (S\&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM Conference on Computer and Communications Security (CCS).
 
-> **Note:** Papers are selected based on whether the title contains the keyword "fuzz." If a paper is related to fuzzing but does not include "fuzz" in its title, it may have been missed. In that case, please open a [Pull Request](https://github.com/cpuu/awesome-fuzzing/pulls) ⭐ 991 | 🐛 1 | 📅 2026-07-09 and it will be reviewed for inclusion.
+> **Note:** Papers are selected based on whether the title contains the keyword "fuzz." If a paper is related to fuzzing but does not include "fuzz" in its title, it may have been missed. In that case, please open a [Pull Request](https://github.com/cpuu/awesome-fuzzing/pulls) ⭐ 990 | 🐛 1 | 📅 2026-07-09 and it will be reviewed for inclusion.
 
 ### The Network and Distributed System Security Symposium (NDSS)
 
@@ -190,7 +190,7 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 <details><summary>2022 (5 papers)</summary>
 
-* [FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022](https://github.com/purseclab/fuzzusb/blob/main/paper/fuzzusb.pdf) ⭐ 37 | 🐛 1 | 🌐 C | 📅 2022-05-11
+* [FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022](https://github.com/purseclab/fuzzusb/blob/main/paper/fuzzusb.pdf) ⭐ 37 | 🐛 2 | 🌐 C | 📅 2022-05-11
 * [PATA: Fuzzing with Path Aware Taint Analysis, 2022](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/sp22.pdf)
 * [Jigsaw: Efficient and Scalable Path Constraints Fuzzing, 2022](https://www.cs.ucr.edu/~csong/oakland22-jigsaw.pdf)
 * [Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis, 2022](https://arxiv.org/pdf/2203.12064.pdf)
@@ -587,7 +587,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,320 | 🐛 626 | 🌐 Go | 📅 2026-09-10 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,320 | 🐛 631 | 🌐 Go | 📅 2026-09-11 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-08 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
@@ -651,4 +651,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-10._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-11._
