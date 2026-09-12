@@ -89,7 +89,7 @@
                 "open_issues": 23,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6750,
+                "stars": 6749,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -158,8 +158,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T09:54:00Z",
-                "open_issues": 631,
+                "last_commit": "2026-09-11T14:22:07Z",
+                "open_issues": 628,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6320,
@@ -318,7 +318,7 @@
                 "open_issues": 6,
                 "owner": "sslab-gatech",
                 "repo": "hydra",
-                "stars": 177,
+                "stars": 178,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -393,7 +393,7 @@
                 "open_issues": 1,
                 "owner": "ucsb-seclab",
                 "repo": "actor",
-                "stars": 41,
+                "stars": 42,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -459,7 +459,7 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-10T09:13:58Z",
+                "last_commit": "2026-09-11T10:17:51Z",
                 "open_issues": 35,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
@@ -810,7 +810,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-11T10:00:51.761Z",
+    "last_updated": "2026-09-12T09:35:18.100Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
