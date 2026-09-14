@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3827,
+            "stars": 3828,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -69,14 +69,14 @@
       "title": "2022 (5 papers)"
     },
     {
-      "description": "A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from fuzzing-survey.org. Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.",
+      "description": "A curated collection of open-source fuzzing tools, grouped by their primary testing target. Each tool appears in one category; its description identifies the relevant interfaces and techniques. Tools are selected for research relevance, availability of official implementations, and documented capabilities.",
       "items": [
         {
           "children": [
             {
               "node_type": "item",
               "title": "AFL++",
-              "description": "A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.",
+              "description": "(2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -85,8 +85,8 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-09-04T12:24:27Z",
-                "open_issues": 23,
+                "last_commit": "2026-09-13T10:42:46Z",
+                "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
                 "stars": 6752,
@@ -112,8 +112,61 @@
             },
             {
               "node_type": "item",
+              "title": "LibAFL",
+              "description": "(2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Advanced Fuzzing Library - Slot your Fuzzer together in Rust! Scales across cores and machines. For Windows, Android, MacOS, Linux, no_std, ...",
+                "homepage": null,
+                "id": 306484908,
+                "language": "Rust",
+                "license": "NOASSERTION",
+                "last_commit": "2026-09-07T11:54:32Z",
+                "open_issues": 120,
+                "owner": "AFLplusplus",
+                "repo": "LibAFL",
+                "stars": 2642,
+                "topics": [
+                  "afl",
+                  "afl-fuzz",
+                  "aflplusplus",
+                  "binary-only",
+                  "coverage-guided",
+                  "frida",
+                  "fuzzing",
+                  "fuzzing-framework",
+                  "libafl",
+                  "rust"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Driller",
+              "description": "(2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Driller: augmenting AFL with symbolic execution!",
+                "homepage": null,
+                "id": 66166800,
+                "language": "Python",
+                "license": "BSD-2-Clause",
+                "last_commit": "2025-03-24T19:44:29Z",
+                "open_issues": 37,
+                "owner": "shellphish",
+                "repo": "driller",
+                "stars": 981,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
               "title": "Angora",
-              "description": "A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.",
+              "description": "(2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -138,6 +191,205 @@
                 ]
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
+              "title": "QSYM",
+              "description": "(2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "description": "QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+                "homepage": null,
+                "id": 145025326,
+                "language": "C++",
+                "license": "NOASSERTION",
+                "last_commit": "2022-11-23T00:23:10Z",
+                "open_issues": 8,
+                "owner": "sslab-gatech",
+                "repo": "qsym",
+                "stars": 654,
+                "topics": [
+                  "binary",
+                  "concolic-execution",
+                  "fuzzing",
+                  "hybrid-fuzzing"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "WINNIE",
+              "description": "(2021) - A Windows application fuzzer that combines harness synthesis with fast process cloning to test code beyond graphical interfaces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Winnie makes fuzzing Windows applications easy",
+                "homepage": null,
+                "id": 311469353,
+                "language": "C",
+                "license": "MIT",
+                "last_commit": "2022-11-28T00:40:41Z",
+                "open_issues": 15,
+                "owner": "sslab-gatech",
+                "repo": "winnie",
+                "stars": 576,
+                "topics": [
+                  "afl-fuzz",
+                  "fuzzing",
+                  "winafl",
+                  "windows"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "AFLGo",
+              "description": "(2017) - An AFL-based directed greybox fuzzer that generates inputs to reach specified target locations in a program.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Directed Greybox Fuzzing with AFL",
+                "homepage": "http://mboehme.github.io/paper/CCS17.pdf",
+                "id": 100235805,
+                "language": "C",
+                "license": "Apache-2.0",
+                "last_commit": "2024-03-13T14:14:57Z",
+                "open_issues": 22,
+                "owner": "aflgo",
+                "repo": "aflgo",
+                "stars": 559,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "AFLFast",
+              "description": "(2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "AFLFast (extends AFL with Power Schedules)",
+                "homepage": "http://lcamtuf.coredump.cx/afl/",
+                "id": 65544753,
+                "language": "C",
+                "license": null,
+                "last_commit": "2023-06-16T09:40:42Z",
+                "open_issues": 1,
+                "owner": "mboehme",
+                "repo": "aflfast",
+                "stars": 424,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "REDQUEEN",
+              "description": "(2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 210428535,
+                "language": "Python",
+                "license": "AGPL-3.0",
+                "last_commit": "2021-09-23T12:47:51Z",
+                "open_issues": 4,
+                "owner": "RUB-SysSec",
+                "repo": "redqueen",
+                "stars": 401,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "MOpt-AFL",
+              "description": "(2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "MOpt-AFL provided by the paper \"MOPT: Optimized Mutation Scheduling for Fuzzers\"",
+                "homepage": null,
+                "id": 178989526,
+                "language": "C",
+                "license": null,
+                "last_commit": "2021-01-26T02:56:12Z",
+                "open_issues": 2,
+                "owner": "puppet-meteor",
+                "repo": "MOpt-AFL",
+                "stars": 214,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "VUzzer",
+              "description": "(2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "This implements a 64-bit version of vusec/vuzzer fuzzing tool.",
+                "homepage": null,
+                "id": 126505785,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2022-03-29T10:07:42Z",
+                "open_issues": 14,
+                "owner": "vusec",
+                "repo": "vuzzer64",
+                "stars": 183,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "InsTrim",
+              "description": "(2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "InsTrim: Lightweight Instrumentation for Coverage-guided Fuzzing",
+                "homepage": null,
+                "id": 117919676,
+                "language": "C++",
+                "license": "MIT",
+                "last_commit": "2020-06-21T02:20:17Z",
+                "open_issues": 5,
+                "owner": "csienslab",
+                "repo": "instrim",
+                "stars": 84,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "G2FUZZ",
+              "description": "(2025) - An AFL++-based fuzzer that uses LLMs to synthesize and mutate input generators for grammar-aware fuzzing of non-textual formats.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 854034626,
+                "language": "C",
+                "license": "Apache-2.0",
+                "last_commit": "2025-11-05T06:50:11Z",
+                "open_issues": 0,
+                "owner": "G2FUZZ",
+                "repo": "G2FUZZ",
+                "stars": 30,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
             }
           ],
           "description": null,
@@ -158,11 +410,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T14:22:07Z",
-                "open_issues": 628,
+                "last_commit": "2026-09-14T10:37:03Z",
+                "open_issues": 630,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6320,
+                "stars": 6323,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -325,6 +577,31 @@
             },
             {
               "node_type": "item",
+              "title": "VirtFuzz",
+              "description": "(2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "VirtFuzz is a Linux Kernel Fuzzer that uses VirtIO to provide inputs into the kernels subsystem. It is built with LibAFL.",
+                "homepage": null,
+                "id": 670214303,
+                "language": "Rust",
+                "license": "GPL-3.0",
+                "last_commit": "2024-06-07T15:16:12Z",
+                "open_issues": 2,
+                "owner": "seemoo-lab",
+                "repo": "VirtFuzz",
+                "stars": 135,
+                "topics": [
+                  "fuzzing",
+                  "libafl",
+                  "linux-kernel"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
               "title": "NTFuzz",
               "description": "(2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.",
               "children": [],
@@ -379,6 +656,90 @@
             },
             {
               "node_type": "item",
+              "title": "StateFuzz",
+              "description": "(2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing",
+                "homepage": null,
+                "id": 498575051,
+                "language": "C++",
+                "license": null,
+                "last_commit": "2023-08-16T01:08:59Z",
+                "open_issues": 2,
+                "owner": "vul337",
+                "repo": "StateFuzz",
+                "stars": 101,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "KextFuzz",
+              "description": "(2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code of KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations (USENIX Security'23)",
+                "homepage": null,
+                "id": 601996981,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2023-08-31T09:07:37Z",
+                "open_issues": 0,
+                "owner": "vul337",
+                "repo": "KextFuzz",
+                "stars": 97,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "PeriScope",
+              "description": "(2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 157257771,
+                "language": "C",
+                "license": null,
+                "last_commit": "2019-03-27T18:57:19Z",
+                "open_issues": 0,
+                "owner": "securesystemslab",
+                "repo": "periscope",
+                "stars": 71,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "SyzGen",
+              "description": "(2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 398737506,
+                "language": "Go",
+                "license": "MIT",
+                "last_commit": "2021-10-28T22:09:41Z",
+                "open_issues": 3,
+                "owner": "seclab-ucr",
+                "repo": "SyzGen_setup",
+                "stars": 48,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
               "title": "ACTOR",
               "description": "(2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.",
               "children": [],
@@ -400,6 +761,90 @@
             },
             {
               "node_type": "item",
+              "title": "SyzDirect",
+              "description": "(2023) - A directed greybox fuzzer for reaching target locations in the Linux kernel.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 687994932,
+                "language": null,
+                "license": "Apache-2.0",
+                "last_commit": "2024-05-31T05:27:41Z",
+                "open_issues": 11,
+                "owner": "seclab-fudan",
+                "repo": "SyzDirect",
+                "stars": 41,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FuzzUSB",
+              "description": "(2022) - A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 471225362,
+                "language": "C",
+                "license": null,
+                "last_commit": "2022-05-11T04:50:08Z",
+                "open_issues": 2,
+                "owner": "purseclab",
+                "repo": "fuzzusb",
+                "stars": 37,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FuzzNG",
+              "description": "(2023) - A Linux kernel syscall fuzzer designed to minimize reliance on manually written system call descriptions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 608388183,
+                "language": "C++",
+                "license": "MIT",
+                "last_commit": "2023-06-05T13:29:01Z",
+                "open_issues": 1,
+                "owner": "BUseclab",
+                "repo": "FuzzNG",
+                "stars": 36,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "SegFuzz",
+              "description": "(2023) - A kernel concurrency fuzzer that uses interleaving segment coverage and mutation-based thread scheduling to discover bugs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 645787621,
+                "language": "C",
+                "license": null,
+                "last_commit": "2024-04-02T03:59:57Z",
+                "open_issues": 1,
+                "owner": "casys-kaist",
+                "repo": "segfuzz",
+                "stars": 32,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
               "title": "KRACE",
               "description": "(2020) - A coverage-guided fuzzing framework that detects data races in kernel file systems by exploring concurrency through multi-threaded syscall sequences.",
               "children": [],
@@ -418,6 +863,157 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
+              "title": "CountDown",
+              "description": "(2024) - A kernel fuzzer that uses shared reference counts to guide syscall sequences toward use-after-free bugs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A Refcount-guided Fuzzer for Exposing Temporal Memory Errors in Linux Kernel",
+                "homepage": null,
+                "id": 847818189,
+                "language": "Go",
+                "license": null,
+                "last_commit": "2025-06-24T18:59:39Z",
+                "open_issues": 0,
+                "owner": "PSU-Security-Universe",
+                "repo": "countdown",
+                "stars": 29,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "DR.FUZZ",
+              "description": "(2022) - A semantic-informed driver fuzzer that tests Linux device drivers without their hardware devices or device emulators.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 448228947,
+                "language": "C",
+                "license": null,
+                "last_commit": "2022-05-16T12:39:37Z",
+                "open_issues": 2,
+                "owner": "secsysresearch",
+                "repo": "DRFuzz",
+                "stars": 29,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Moneta",
+              "description": "(2025) - A GPU driver fuzzer that recalls execution states captured on real hardware for ex-vivo fuzzing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 825629122,
+                "language": "C",
+                "license": null,
+                "last_commit": "2025-03-26T02:58:55Z",
+                "open_issues": 1,
+                "owner": "yonsei-sslab",
+                "repo": "moneta",
+                "stars": 27,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "MOCK",
+              "description": "(2024) - A Linux kernel fuzzer that learns contextual dependencies between syscalls to generate context-aware test cases.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "[NDSS'24] MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency",
+                "homepage": "https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/",
+                "id": 679022232,
+                "language": "Rust",
+                "license": "Apache-2.0",
+                "last_commit": "2024-12-21T06:34:57Z",
+                "open_issues": 2,
+                "owner": "m0ck1ng",
+                "repo": "mock",
+                "stars": 24,
+                "topics": [
+                  "context-aware",
+                  "fuzzer",
+                  "kernel"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "SyzTrust",
+              "description": "(2024) - An on-device fuzzer for IoT trusted operating systems that uses state and branch coverage to guide input generation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "SyzTrust's main repository. Start here to install.",
+                "homepage": null,
+                "id": 699747361,
+                "language": "Go",
+                "license": "Apache-2.0",
+                "last_commit": "2024-02-29T02:49:55Z",
+                "open_issues": 0,
+                "owner": "SyzTrust",
+                "repo": "syztrust",
+                "stars": 19,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "SyzSpec",
+              "description": "(2025) - A specification generator for Linux kernel fuzzing that uses under-constrained symbolic execution to infer syscall interfaces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1067533365,
+                "language": "C++",
+                "license": "NOASSERTION",
+                "last_commit": "2026-02-23T12:47:29Z",
+                "open_issues": 3,
+                "owner": "seclab-ucr",
+                "repo": "SyzSpec",
+                "stars": 17,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Drifuzz",
+              "description": "(2022) - A hardware-free device driver fuzzer that combines concolic execution with high-quality initial seed generation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 473714713,
+                "language": "Shell",
+                "license": null,
+                "last_commit": "2022-07-25T09:15:49Z",
+                "open_issues": 1,
+                "owner": "messlabnyu",
+                "repo": "DrifuzzProject",
+                "stars": 5,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
             }
           ],
           "description": null,
@@ -428,25 +1024,145 @@
           "children": [
             {
               "node_type": "item",
-              "title": "FANS",
-              "description": "A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.",
+              "title": "Hopper",
+              "description": "(2023) - A library fuzzer that interprets generated API calls and learns argument constraints without requiring manually written fuzz drivers.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "FANS: Fuzzing Android Native System Services",
+                "description": "Hopper is a tool for generating fuzzing test cases for libraries automatically using interpretative fuzzing.",
                 "homepage": null,
-                "id": 256767737,
-                "language": "C++",
-                "license": null,
-                "last_commit": "2020-09-23T14:14:43Z",
+                "id": 710269044,
+                "language": "Rust",
+                "license": "NOASSERTION",
+                "last_commit": "2026-06-05T04:55:26Z",
+                "open_issues": 9,
+                "owner": "FuzzAnything",
+                "repo": "Hopper",
+                "stars": 266,
+                "topics": [
+                  "afl",
+                  "api-testing",
+                  "binary",
+                  "fuzz-driver",
+                  "fuzzer",
+                  "fuzzing",
+                  "fuzzing-framework",
+                  "interpreter",
+                  "library-testing",
+                  "rust",
+                  "security",
+                  "testing"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "GraphFuzz",
+              "description": "An experimental framework for building structure-aware, library API fuzzers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "GraphFuzz is an experimental framework for building structure-aware, library API fuzzers.",
+                "homepage": "https://hgarrereyn.github.io/GraphFuzz",
+                "id": 484048950,
+                "language": null,
+                "license": "MIT",
+                "last_commit": "2022-04-21T01:29:31Z",
                 "open_issues": 0,
-                "owner": "iromise",
-                "repo": "fans",
-                "stars": 265,
+                "owner": "ForAllSecure",
+                "repo": "GraphFuzz",
+                "stars": 10,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Libraries & APIs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ChatAFL",
+              "description": "(2024) - An AFLNet-based protocol fuzzer that uses LLMs to infer message grammars, enrich seeds, and generate messages that explore new protocol states.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Large Language Model guided Protocol Fuzzing (NDSS'24)",
+                "homepage": null,
+                "id": 696671276,
+                "language": "C",
+                "license": "Apache-2.0",
+                "last_commit": "2025-06-30T12:32:33Z",
+                "open_issues": 6,
+                "owner": "ChatAFLndss",
+                "repo": "ChatAFL",
+                "stars": 395,
+                "topics": [
+                  "fuzzing",
+                  "fuzzing-testing",
+                  "llm",
+                  "llm4fuzzing",
+                  "llm4testing",
+                  "network-fuzzer",
+                  "testing",
+                  "testing-tools"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
             },
+            {
+              "node_type": "item",
+              "title": "SGFuzz",
+              "description": "(2022) - A libFuzzer-based fuzzer that adds state-transition feedback to explore stateful software, including network protocol implementations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 478146525,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2025-09-29T08:24:52Z",
+                "open_issues": 1,
+                "owner": "bajinsheng",
+                "repo": "SGFuzz",
+                "stars": 99,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ResolverFuzz",
+              "description": "(2024) - A DNS fuzzer that combines query-response generation with differential analysis to detect non-crash vulnerabilities in resolvers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Official repository for ResolverFuzz",
+                "homepage": null,
+                "id": 683610482,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2024-08-11T19:53:07Z",
+                "open_issues": 3,
+                "owner": "ResolverFuzz",
+                "repo": "ResolverFuzz",
+                "stars": 20,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Network & Protocols"
+        },
+        {
+          "children": [
             {
               "node_type": "item",
               "title": "WuppieFuzz",
@@ -459,7 +1175,7 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T10:17:51Z",
+                "last_commit": "2026-09-14T08:33:11Z",
                 "open_issues": 35,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
@@ -471,6 +1187,27 @@
                   "openapi",
                   "rest-api-test"
                 ]
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Witcher",
+              "description": "A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Witcher is the first framework for using AFL to fuzz web applications.",
+                "homepage": null,
+                "id": 273757418,
+                "language": "C",
+                "license": "BSD-2-Clause",
+                "last_commit": "2023-11-28T01:33:56Z",
+                "open_issues": 6,
+                "owner": "sefcom",
+                "repo": "Witcher",
+                "stars": 109,
+                "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
             },
@@ -518,42 +1255,21 @@
             },
             {
               "node_type": "item",
-              "title": "Minerva",
-              "description": "A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.",
+              "title": "TEFuzz",
+              "description": "A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "A browser fuzzer augmented by API mod-ref relations",
+                "description": null,
                 "homepage": null,
-                "id": 507207227,
+                "id": 598452505,
                 "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2024-03-08T09:10:54Z",
+                "license": null,
+                "last_commit": "2023-04-07T06:03:39Z",
                 "open_issues": 0,
-                "owner": "ChijinZ",
-                "repo": "Minerva",
-                "stars": 35,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T17:42:49.031Z"
-            },
-            {
-              "node_type": "item",
-              "title": "GraphFuzz",
-              "description": "An experimental framework for building structure-aware, library API fuzzers.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "GraphFuzz is an experimental framework for building structure-aware, library API fuzzers.",
-                "homepage": "https://hgarrereyn.github.io/GraphFuzz",
-                "id": 484048950,
-                "language": null,
-                "license": "MIT",
-                "last_commit": "2022-04-21T01:29:31Z",
-                "open_issues": 0,
-                "owner": "ForAllSecure",
-                "repo": "GraphFuzz",
-                "stars": 10,
+                "owner": "seclab-fudan",
+                "repo": "TEFuzz",
+                "stars": 19,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -561,7 +1277,301 @@
           ],
           "description": null,
           "node_type": "group",
-          "title": "API"
+          "title": "Web Applications & APIs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "FreeDom",
+              "description": "(2020) - A DOM fuzzer that generates HTML documents and DOM interactions to discover browser vulnerabilities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A DOM fuzzer",
+                "homepage": null,
+                "id": 294818206,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2022-08-18T04:00:09Z",
+                "open_issues": 4,
+                "owner": "sslab-gatech",
+                "repo": "freedom",
+                "stars": 159,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FuzzOrigin",
+              "description": "(2022) - A browser fuzzer that tests origin handling to discover universal cross-site scripting vulnerabilities.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 515076768,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2023-09-04T07:38:06Z",
+                "open_issues": 1,
+                "owner": "compsec-snu",
+                "repo": "fuzzorigin",
+                "stars": 18,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "CorbFuzz",
+              "description": "(2021) - A browser security policy testing framework that synthesizes web application responses to test cross-origin response blocking implementations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for ASE'21 Paper \"CorbFuzz: Checking Browser Security Policies with Fuzzing\"",
+                "homepage": "https://arxiv.org/abs/2109.00398",
+                "id": 398087023,
+                "language": "C",
+                "license": "MIT",
+                "last_commit": "2021-08-29T15:28:23Z",
+                "open_issues": 0,
+                "owner": "shouc",
+                "repo": "corbfuzz",
+                "stars": 6,
+                "topics": [
+                  "browser-security",
+                  "concolic-execution",
+                  "fuzzing"
+                ]
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Browsers"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CodeAlchemist",
+              "description": "(2019) - A JavaScript engine fuzzer that assembles code fragments while respecting semantic constraints to generate valid test programs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "CodeAlchemist: Semantics-Aware Code Generation to Find Vulnerabilities in JavaScript Engines (NDSS '19)",
+                "homepage": null,
+                "id": 158540651,
+                "language": "F#",
+                "license": "MIT",
+                "last_commit": "2019-11-11T03:57:38Z",
+                "open_issues": 1,
+                "owner": "SoftSec-KAIST",
+                "repo": "CodeAlchemist",
+                "stars": 243,
+                "topics": [
+                  "code-generation",
+                  "fsharp",
+                  "fuzzer",
+                  "js-fuzzing"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FuzzJIT",
+              "description": "(2023) - A Fuzzilli-based JavaScript engine fuzzer that uses an oracle to detect incorrect behavior introduced by JIT compilation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 541374423,
+                "language": "Swift",
+                "license": "Apache-2.0",
+                "last_commit": "2022-11-17T14:07:17Z",
+                "open_issues": 4,
+                "owner": "SpaceNaN",
+                "repo": "fuzzjit",
+                "stars": 82,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "RGFuzz",
+              "description": "(2025) - A WebAssembly runtime fuzzer that uses compiler rules to guide test generation and compares execution results across runtimes and architectures.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "RGFuzz: Rule-Guided Fuzzer for WebAssembly Runtimes",
+                "homepage": null,
+                "id": 859633697,
+                "language": "Rust",
+                "license": null,
+                "last_commit": "2026-01-10T13:44:42Z",
+                "open_issues": 0,
+                "owner": "kaist-hacking",
+                "repo": "RGFuzz",
+                "stars": 25,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Compilers & Language Runtimes"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "FIRM-AFL",
+              "description": "(2019) - An IoT firmware fuzzer that combines user-mode and system-mode emulation to improve fuzzing throughput for POSIX-compatible firmware.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "FIRM-AFL is the first high-throughput greybox fuzzer for IoT firmware. ",
+                "homepage": null,
+                "id": 187463972,
+                "language": "C",
+                "license": "GPL-3.0",
+                "last_commit": "2024-03-22T01:30:54Z",
+                "open_issues": 45,
+                "owner": "zyw-200",
+                "repo": "FirmAFL",
+                "stars": 463,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Fuzzware",
+              "description": "(2022) - A firmware fuzzer that models memory-mapped I/O accesses to test microcontroller firmware without full peripheral emulation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Fuzzware's main repository. Start here to install.",
+                "homepage": null,
+                "id": 449267455,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-06-27T07:50:04Z",
+                "open_issues": 15,
+                "owner": "fuzzware-fuzzer",
+                "repo": "fuzzware",
+                "stars": 385,
+                "topics": [
+                  "embedded",
+                  "embedded-systems",
+                  "firmware",
+                  "fuzzing"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Hoedur",
+              "description": "(2023) - An embedded firmware fuzzer that uses multiple input streams to represent interactions with different hardware interfaces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 656480820,
+                "language": "Rust",
+                "license": "AGPL-3.0",
+                "last_commit": "2025-05-12T15:15:02Z",
+                "open_issues": 3,
+                "owner": "fuzzware-fuzzer",
+                "repo": "hoedur",
+                "stars": 73,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Firmware & Embedded Systems"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "V-SHUTTLE",
+              "description": "(2021) - An AFL-based fuzzer for virtual devices in hosted hypervisors, with semantics-aware input generation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 399397446,
+                "language": "C",
+                "license": null,
+                "last_commit": "2023-12-01T13:35:36Z",
+                "open_issues": 12,
+                "owner": "hustdebug",
+                "repo": "v-shuttle",
+                "stars": 100,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "HyperPill",
+              "description": "(2024) - A hypervisor fuzzer that uses the hardware virtualization interface to exercise hypervisor behavior without hypervisor-specific input grammars.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 767765334,
+                "language": "C++",
+                "license": "MIT",
+                "last_commit": "2026-03-26T15:06:33Z",
+                "open_issues": 4,
+                "owner": "HexHive",
+                "repo": "HyperPill",
+                "stars": 65,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ViDeZZo",
+              "description": "(2023) - A virtual device fuzzing framework that models dependencies within and between messages to test devices in QEMU and VirtualBox.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "ViDeZZo source code.",
+                "homepage": null,
+                "id": 451580765,
+                "language": "C",
+                "license": null,
+                "last_commit": "2026-04-08T13:05:32Z",
+                "open_issues": 3,
+                "owner": "HexHive",
+                "repo": "ViDeZZo",
+                "stars": 40,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Hypervisors & Virtual Devices"
         },
         {
           "children": [
@@ -581,7 +1591,7 @@
                 "open_issues": 2,
                 "owner": "compsec-snu",
                 "repo": "difuzz-rtl",
-                "stars": 102,
+                "stars": 101,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -610,7 +1620,7 @@
             {
               "node_type": "item",
               "title": "SpecFuzz",
-              "description": "A tool to enable fuzzing for Spectre vulnerabilities.",
+              "description": "A tool that exposes speculative execution paths through software instrumentation so fuzzers can detect Spectre-type vulnerabilities in programs.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -652,84 +1662,109 @@
           ],
           "description": null,
           "node_type": "group",
-          "title": "CPU"
+          "title": "Hardware & Microarchitecture"
         },
         {
           "children": [
             {
               "node_type": "item",
-              "title": "Witcher",
-              "description": "A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.",
+              "title": "FANS",
+              "description": "A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Witcher is the first framework for using AFL to fuzz web applications.",
+                "description": "FANS: Fuzzing Android Native System Services",
                 "homepage": null,
-                "id": 273757418,
-                "language": "C",
-                "license": "BSD-2-Clause",
-                "last_commit": "2023-11-28T01:33:56Z",
-                "open_issues": 6,
-                "owner": "sefcom",
-                "repo": "Witcher",
-                "stars": 109,
+                "id": 256767737,
+                "language": "C++",
+                "license": null,
+                "last_commit": "2020-09-23T14:14:43Z",
+                "open_issues": 0,
+                "owner": "iromise",
+                "repo": "fans",
+                "stars": 265,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
-              "title": "TEFuzz",
-              "description": "A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.",
+              "title": "MALintent",
+              "description": "(2025) - A coverage-guided Android fuzzer that generates and mutates intents to test application intent receivers.",
               "children": [],
               "repo_info": {
                 "archived": false,
                 "description": null,
                 "homepage": null,
-                "id": 598452505,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2023-04-07T06:03:39Z",
-                "open_issues": 0,
-                "owner": "seclab-fudan",
-                "repo": "TEFuzz",
-                "stars": 19,
+                "id": 857127340,
+                "language": "Rust",
+                "license": "MIT",
+                "last_commit": "2026-06-05T06:14:26Z",
+                "open_issues": 1,
+                "owner": "sslab-gatech",
+                "repo": "MALintent",
+                "stars": 37,
                 "topics": []
               },
-              "first_seen": "2026-08-28T17:42:49.031Z"
+              "first_seen": "2026-09-14T10:58:51.509Z"
             },
             {
               "node_type": "item",
-              "title": "CorbFuzz",
-              "description": "A state-aware fuzzer for generating as many responses from a web application as possible without need of setting up a database.",
+              "title": "AHA-Fuzz",
+              "description": "(2025) - An intent-aware greybox fuzzer that uses eBPF-based analysis to test hardened Android applications.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Code for ASE'21 Paper \"CorbFuzz: Checking Browser Security Policies with Fuzzing\"",
-                "homepage": "https://arxiv.org/abs/2109.00398",
-                "id": 398087023,
-                "language": "C",
-                "license": "MIT",
-                "last_commit": "2021-08-29T15:28:23Z",
+                "description": null,
+                "homepage": null,
+                "id": 980589283,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2025-12-02T03:08:35Z",
                 "open_issues": 0,
-                "owner": "shouc",
-                "repo": "corbfuzz",
-                "stars": 6,
-                "topics": [
-                  "browser-security",
-                  "concolic-execution",
-                  "fuzzing"
-                ]
+                "owner": "S2-Lab",
+                "repo": "AHA-fuzz",
+                "stars": 18,
+                "topics": []
               },
-              "first_seen": "2026-08-28T17:42:49.031Z"
+              "first_seen": "2026-09-14T10:58:51.509Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Web"
+          "title": "Android & Mobile Systems"
         },
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "ILF",
+              "description": "(2019) - An Ethereum smart contract fuzzer that learns a transaction-generation policy from symbolic execution through imitation learning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "AI based fuzzer based on imitation learning",
+                "homepage": null,
+                "id": 223585368,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2024-06-17T23:00:38Z",
+                "open_issues": 4,
+                "owner": "eth-sri",
+                "repo": "ilf",
+                "stars": 155,
+                "topics": [
+                  "blockchain",
+                  "fuzzing",
+                  "imitation-learning",
+                  "machine-learning",
+                  "smart-contracts",
+                  "symbolic-execution",
+                  "testing"
+                ]
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
             {
               "node_type": "item",
               "title": "Fluffy",
@@ -775,7 +1810,7 @@
           ],
           "description": null,
           "node_type": "group",
-          "title": "Blockchain"
+          "title": "Blockchain & Smart Contracts"
         },
         {
           "children": [
@@ -799,6 +1834,48 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
+              "title": "SQLRight",
+              "description": "(2022) - A DBMS fuzzer that combines coverage feedback, validity-oriented query mutations, and result-checking oracles to detect logical bugs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Coveraged-based fuzzer for finding DBMS logical bugs",
+                "homepage": null,
+                "id": 503513937,
+                "language": "C",
+                "license": "MIT",
+                "last_commit": "2022-10-28T20:20:16Z",
+                "open_issues": 2,
+                "owner": "PSU-Security-Universe",
+                "repo": "sqlright",
+                "stars": 66,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
+            },
+            {
+              "node_type": "item",
+              "title": "BuzzBee",
+              "description": "(2024) - A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 857512299,
+                "language": "C++",
+                "license": "MIT",
+                "last_commit": "2024-09-14T20:54:17Z",
+                "open_issues": 4,
+                "owner": "OMH4ck",
+                "repo": "BuzzBee",
+                "stars": 9,
+                "topics": []
+              },
+              "first_seen": "2026-09-14T10:58:51.509Z"
             }
           ],
           "description": null,
@@ -810,16 +1887,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-13T10:37:59.016Z",
+    "last_updated": "2026-09-14T10:58:51.509Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
       "homepage": null,
       "id": 154854935,
-      "language": null,
+      "language": "Python",
       "license": "CC0-1.0",
-      "last_commit": "2026-07-09T01:53:13Z",
-      "open_issues": 1,
+      "last_commit": "2026-09-14T06:12:02Z",
+      "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
       "stars": 990,
@@ -831,7 +1908,7 @@
         "fuzzing"
       ]
     },
-    "original_repository_sha": "822418b749c1fc7d49e22591b07cdec14be4ed84",
+    "original_repository_sha": "83fddf9b9aa582ccb4c8a9fcdf4fbba2e278de04",
     "enhanced_repository": "enhansome/enhansome-fuzzing",
     "enhanced_repository_description": null,
     "title": "Awesome Fuzzing with stars"

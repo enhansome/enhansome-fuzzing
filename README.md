@@ -12,11 +12,10 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 * [Talks](#talks)
 * [Papers](#papers)
 * [Tools](#tools)
-* [Contribute](#contribute)
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,827 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,828 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -33,11 +32,29 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Papers
 
-To achieve a well-defined scope, I have chosen to include publications on fuzzing from 4 top major security conferences (2008–2025): (i) Network and Distributed System Security Symposium (NDSS), (ii) IEEE Symposium on Security and Privacy (S\&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM Conference on Computer and Communications Security (CCS).
+To achieve a well-defined scope, I have chosen to include publications on fuzzing from 4 top major security conferences (2008–2026): (i) Network and Distributed System Security Symposium (NDSS), (ii) IEEE Symposium on Security and Privacy (S\&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM Conference on Computer and Communications Security (CCS).
 
-> **Note:** Papers are selected based on whether the title contains the keyword "fuzz." If a paper is related to fuzzing but does not include "fuzz" in its title, it may have been missed. In that case, please open a [Pull Request](https://github.com/cpuu/awesome-fuzzing/pulls) ⭐ 990 | 🐛 1 | 📅 2026-07-09 and it will be reviewed for inclusion.
+> **Note:** Papers are selected based on whether the title contains the keyword "fuzz." If a paper is related to fuzzing but does not include "fuzz" in its title, it may have been missed. In that case, please open a [Pull Request](https://github.com/cpuu/awesome-fuzzing/pulls) ⭐ 990 | 🐛 0 | 🌐 Python | 📅 2026-09-14 and it will be reviewed for inclusion.
 
 ### The Network and Distributed System Security Symposium (NDSS)
+
+<details><summary>2026 (13 papers)</summary>
+
+* [ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1014-paper.pdf)
+* [An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f1081-paper.pdf)
+* [BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f94-paper.pdf)
+* [DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1467-paper.pdf)
+* [FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1943-paper.pdf)
+* [Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1486-paper.pdf)
+* [GoldenFuzz: Generative Golden Reference Hardware Fuzzing, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1663-paper.pdf)
+* [HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s1763-paper.pdf)
+* [MUTATO: Enhancing Fuzz Drivers with Adaptive API Option Mutation, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-s820-paper.pdf)
+* [PhyFuzz: Detecting Sensor Vulnerabilities with Physical Signal Fuzzing, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f29-paper.pdf)
+* [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f587-paper.pdf)
+* [ReFuzz: Reusing Tests for Processor Fuzzing with Contextual Bandits, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f118-paper.pdf)
+* [RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels, 2026](https://www.ndss-symposium.org/wp-content/uploads/2026-f1600-paper.pdf)
+
+</details>
 
 <details><summary>2025 (10 papers)</summary>
 
@@ -141,6 +158,25 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 </details>
 
 ### IEEE Symposium on Security and Privacy (IEEE S\&P)
+
+<details><summary>2026 (14 papers)</summary>
+
+* [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://doi.org/10.1109/sp63933.2026.00188)
+* [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00002)
+* [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://doi.org/10.1109/sp63933.2026.00060)
+* [Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00091)
+* [Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems, 2026](https://doi.org/10.1109/sp63933.2026.00178)
+* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://doi.org/10.1109/sp63933.2026.00134)
+* [PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting, 2026](https://doi.org/10.1109/sp63933.2026.00211)
+* [SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment, 2026](https://doi.org/10.1109/sp63933.2026.00011)
+* [Specializing Language Models for Textual Fuzzing via Reinforcement Learning, 2026](https://doi.org/10.1109/sp63933.2026.00184)
+* [StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries, 2026](https://doi.org/10.1109/sp63933.2026.00124)
+* [Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery, 2026](https://doi.org/10.1109/sp63933.2026.00155)
+* [TrigFuzz: Triggering Conditions Guided Directed Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00156)
+* [Web Application Vulnerability Repair via Context-Aware Fault Localization and Directed Differential Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00237)
+* [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits, 2026](https://doi.org/10.1109/sp63933.2026.00049)
+
+</details>
 
 <details><summary>2025 (7 papers)</summary>
 
@@ -254,6 +290,15 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 </details>
 
 ### USENIX Security
+
+<details><summary>2026 (4 papers)</summary>
+
+* [Bond: Constraint-Directed Fuzzing for Automated Validation of Taint Analysis Results in Linux-based IoT Firmware, 2026](https://www.usenix.org/system/files/usenixsecurity26-peng-jiaqian.pdf)
+* [CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing, 2026](https://www.usenix.org/system/files/usenixsecurity26-marini.pdf)
+* [FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2026](https://www.usenix.org/system/files/usenixsecurity26-duong.pdf)
+* [PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis, 2026](https://www.usenix.org/system/files/usenixsecurity26-jia-zhipeng.pdf)
+
+</details>
 
 <details><summary>2025 (15 papers)</summary>
 
@@ -578,77 +623,129 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 ## Tools
 
-A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from [fuzzing-survey.org](https://fuzzing-survey.org/). Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.
+A curated collection of open-source fuzzing tools, grouped by their primary testing target. Each tool appears in one category; its description identifies the relevant interfaces and techniques. Tools are selected for research relevance, availability of official implementations, and documented capabilities.
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,752 | 🐛 23 | 🌐 C | 📅 2026-09-04 - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-* [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,752 | 🐛 24 | 🌐 C | 📅 2026-09-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,642 | 🐛 120 | 🌐 Rust | 📅 2026-09-07 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
+* [Driller](https://github.com/shellphish/driller) ⭐ 981 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
+* [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
+* [QSYM](https://github.com/sslab-gatech/qsym) ⚠️ Archived (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
+* [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 576 | 🐛 15 | 🌐 C | 📅 2022-11-28 (2021) - A Windows application fuzzer that combines harness synthesis with fast process cloning to test code beyond graphical interfaces.
+* [AFLGo](https://github.com/aflgo/aflgo) ⭐ 559 | 🐛 22 | 🌐 C | 📅 2024-03-13 (2017) - An AFL-based directed greybox fuzzer that generates inputs to reach specified target locations in a program.
+* [AFLFast](https://github.com/mboehme/aflfast) ⭐ 424 | 🐛 1 | 🌐 C | 📅 2023-06-16 (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
+* [REDQUEEN](https://github.com/RUB-SysSec/redqueen) ⭐ 401 | 🐛 4 | 🌐 Python | 📅 2021-09-23 (2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.
+* [MOpt-AFL](https://github.com/puppet-meteor/MOpt-AFL) ⭐ 214 | 🐛 2 | 🌐 C | 📅 2021-01-26 (2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.
+* [VUzzer](https://github.com/vusec/vuzzer64) ⭐ 183 | 🐛 14 | 🌐 C++ | 📅 2022-03-29 (2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.
+* [InsTrim](https://github.com/csienslab/instrim) ⭐ 84 | 🐛 5 | 🌐 C++ | 📅 2020-06-21 (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
+* [G2FUZZ](https://github.com/G2FUZZ/G2FUZZ) ⭐ 30 | 🐛 0 | 🌐 C | 📅 2025-11-05 (2025) - An AFL++-based fuzzer that uses LLMs to synthesize and mutate input generators for grammar-aware fuzzing of non-textual formats.
+* [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its GitHub repository is archived; AFL++ is recommended for new projects.
+* [Valgrind](https://valgrind.org) (2000) - A dynamic analysis framework with tools for detecting memory management and threading errors and profiling program execution.
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,320 | 🐛 628 | 🌐 Go | 📅 2026-09-11 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,323 | 🐛 630 | 🌐 Go | 📅 2026-09-14 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-08 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
 * [Razzer](https://github.com/compsec-snu/razzer) ⭐ 377 | 🐛 9 | 🌐 C | 📅 2019-07-10 (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
 * [Janus](https://github.com/sslab-gatech/janus) ⭐ 238 | 🐛 6 | 🌐 C | 📅 2019-12-23 (2019) - A file system fuzzer that finds memory corruptions in Linux kernel file systems by mutating both filesystem images and syscall sequences simultaneously.
 * [Hydra](https://github.com/sslab-gatech/hydra) ⭐ 178 | 🐛 6 | 🌐 C | 📅 2022-08-08 (2019) - A fuzzing framework for automatically discovering semantic bugs in file systems using input mutators, feedback engines, and customizable checkers.
+* [VirtFuzz](https://github.com/seemoo-lab/VirtFuzz) ⭐ 135 | 🐛 2 | 🌐 Rust | 📅 2024-06-07 (2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.
 * [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 113 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
 * [IMF](https://github.com/SoftSec-KAIST/IMF) ⭐ 112 | 🐛 2 | 🌐 Python | 📅 2022-01-22 (2017) - A kernel API fuzzer that leverages automated API model inference to discover vulnerabilities in macOS kernel APIs.
+* [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 101 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
+* [KextFuzz](https://github.com/vul337/KextFuzz) ⭐ 97 | 🐛 0 | 🌐 Python | 📅 2023-08-31 (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
+* [PeriScope](https://github.com/securesystemslab/periscope) ⭐ 71 | 🐛 0 | 🌐 C | 📅 2019-03-27 (2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.
+* [SyzGen](https://github.com/seclab-ucr/SyzGen_setup) ⭐ 48 | 🐛 3 | 🌐 Go | 📅 2021-10-28 (2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.
 * [ACTOR](https://github.com/ucsb-seclab/actor) ⭐ 42 | 🐛 1 | 🌐 Go | 📅 2024-05-06 (2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.
+* [SyzDirect](https://github.com/seclab-fudan/SyzDirect) ⭐ 41 | 🐛 11 | 📅 2024-05-31 (2023) - A directed greybox fuzzer for reaching target locations in the Linux kernel.
+* [FuzzUSB](https://github.com/purseclab/fuzzusb) ⭐ 37 | 🐛 2 | 🌐 C | 📅 2022-05-11 (2022) - A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.
+* [FuzzNG](https://github.com/BUseclab/FuzzNG) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2023-06-05 (2023) - A Linux kernel syscall fuzzer designed to minimize reliance on manually written system call descriptions.
+* [SegFuzz](https://github.com/casys-kaist/segfuzz) ⭐ 32 | 🐛 1 | 🌐 C | 📅 2024-04-02 (2023) - A kernel concurrency fuzzer that uses interleaving segment coverage and mutation-based thread scheduling to discover bugs.
 * [KRACE](https://github.com/sslab-gatech/krace) ⭐ 32 | 🐛 2 | 🌐 Python | 📅 2021-11-15 (2020) - A coverage-guided fuzzing framework that detects data races in kernel file systems by exploring concurrency through multi-threaded syscall sequences.
+* [CountDown](https://github.com/psu-security-universe/countdown) ⭐ 29 | 🐛 0 | 🌐 Go | 📅 2025-06-24 (2024) - A kernel fuzzer that uses shared reference counts to guide syscall sequences toward use-after-free bugs.
+* [DR.FUZZ](https://github.com/secsysresearch/DRFuzz) ⭐ 29 | 🐛 2 | 🌐 C | 📅 2022-05-16 (2022) - A semantic-informed driver fuzzer that tests Linux device drivers without their hardware devices or device emulators.
+* [Moneta](https://github.com/yonsei-sslab/moneta) ⭐ 27 | 🐛 1 | 🌐 C | 📅 2025-03-26 (2025) - A GPU driver fuzzer that recalls execution states captured on real hardware for ex-vivo fuzzing.
+* [MOCK](https://github.com/m0ck1ng/mock) ⭐ 24 | 🐛 2 | 🌐 Rust | 📅 2024-12-21 (2024) - A Linux kernel fuzzer that learns contextual dependencies between syscalls to generate context-aware test cases.
+* [SyzTrust](https://github.com/SyzTrust/syztrust) ⭐ 19 | 🐛 0 | 🌐 Go | 📅 2024-02-29 (2024) - An on-device fuzzer for IoT trusted operating systems that uses state and branch coverage to guide input generation.
+* [SyzSpec](https://github.com/seclab-ucr/SyzSpec) ⭐ 17 | 🐛 3 | 🌐 C++ | 📅 2026-02-23 (2025) - A specification generator for Linux kernel fuzzing that uses under-constrained symbolic execution to infer syscall interfaces.
+* [Drifuzz](https://github.com/messlabnyu/DrifuzzProject) ⭐ 5 | 🐛 1 | 🌐 Shell | 📅 2022-07-25 (2022) - A hardware-free device driver fuzzer that combines concolic execution with high-quality initial seed generation.
 
-### Network
+### Libraries & APIs
 
-### API
-
-* [FANS](https://github.com/iromise/fans) ⭐ 265 | 🐛 0 | 🌐 C++ | 📅 2020-09-23 - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
-* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 226 | 🐛 35 | 🌐 Rust | 📅 2026-09-11 - A coverage-guided REST API fuzzer developed on top of LibAFL.
-* [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 65 | 🐛 2 | 🌐 Java | 📅 2025-12-21 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
-* [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
-* [Minerva](https://github.com/ChijinZ/Minerva) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2024-03-08 - A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
+* [Hopper](https://github.com/FuzzAnything/Hopper) ⭐ 266 | 🐛 9 | 🌐 Rust | 📅 2026-06-05 (2023) - A library fuzzer that interprets generated API calls and learns argument constraints without requiring manually written fuzz drivers.
 * [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) ⭐ 10 | 🐛 0 | 📅 2022-04-21 - An experimental framework for building structure-aware, library API fuzzers.
 * [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
 
-### JavaScript
+### Network & Protocols
 
-### Firmware
+* [ChatAFL](https://github.com/ChatAFLndss/ChatAFL) ⭐ 395 | 🐛 6 | 🌐 C | 📅 2025-06-30 (2024) - An AFLNet-based protocol fuzzer that uses LLMs to infer message grammars, enrich seeds, and generate messages that explore new protocol states.
+* [SGFuzz](https://github.com/bajinsheng/SGFuzz) ⭐ 99 | 🐛 1 | 🌐 C++ | 📅 2025-09-29 (2022) - A libFuzzer-based fuzzer that adds state-transition feedback to explore stateful software, including network protocol implementations.
+* [ResolverFuzz](https://github.com/ResolverFuzz/ResolverFuzz) ⭐ 20 | 🐛 3 | 🌐 Python | 📅 2024-08-11 (2024) - A DNS fuzzer that combines query-response generation with differential analysis to detect non-crash vulnerabilities in resolvers.
 
-### Hypervisor
+### Web Applications & APIs
 
-### CPU
+* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 226 | 🐛 35 | 🌐 Rust | 📅 2026-09-14 - A coverage-guided REST API fuzzer developed on top of LibAFL.
+* [Witcher](https://github.com/sefcom/Witcher) ⭐ 109 | 🐛 6 | 🌐 C | 📅 2023-11-28 - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
+* [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 65 | 🐛 2 | 🌐 Java | 📅 2025-12-21 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
+* [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
+* [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2023-04-07 - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
 
-* [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) ⭐ 102 | 🐛 2 | 🌐 Verilog | 📅 2024-05-27 - A differential fuzz testing approach for CPU verification.
+### Browsers
+
+* [FreeDom](https://github.com/sslab-gatech/freedom) ⭐ 159 | 🐛 4 | 🌐 Python | 📅 2022-08-18 (2020) - A DOM fuzzer that generates HTML documents and DOM interactions to discover browser vulnerabilities.
+* [FuzzOrigin](https://github.com/compsec-snu/fuzzorigin) ⭐ 18 | 🐛 1 | 🌐 Python | 📅 2023-09-04 (2022) - A browser fuzzer that tests origin handling to discover universal cross-site scripting vulnerabilities.
+* [CorbFuzz](https://github.com/shouc/corbfuzz) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2021-08-29 (2021) - A browser security policy testing framework that synthesizes web application responses to test cross-origin response blocking implementations.
+
+### Compilers & Language Runtimes
+
+* [CodeAlchemist](https://github.com/SoftSec-KAIST/CodeAlchemist) ⭐ 243 | 🐛 1 | 🌐 F# | 📅 2019-11-11 (2019) - A JavaScript engine fuzzer that assembles code fragments while respecting semantic constraints to generate valid test programs.
+* [FuzzJIT](https://github.com/SpaceNaN/fuzzjit) ⭐ 82 | 🐛 4 | 🌐 Swift | 📅 2022-11-17 (2023) - A Fuzzilli-based JavaScript engine fuzzer that uses an oracle to detect incorrect behavior introduced by JIT compilation.
+* [RGFuzz](https://github.com/kaist-hacking/RGFuzz) ⭐ 25 | 🐛 0 | 🌐 Rust | 📅 2026-01-10 (2025) - A WebAssembly runtime fuzzer that uses compiler rules to guide test generation and compares execution results across runtimes and architectures.
+
+### Firmware & Embedded Systems
+
+* [FIRM-AFL](https://github.com/zyw-200/FirmAFL) ⭐ 463 | 🐛 45 | 🌐 C | 📅 2024-03-22 (2019) - An IoT firmware fuzzer that combines user-mode and system-mode emulation to improve fuzzing throughput for POSIX-compatible firmware.
+* [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) ⭐ 385 | 🐛 15 | 🌐 Python | 📅 2026-06-27 (2022) - A firmware fuzzer that models memory-mapped I/O accesses to test microcontroller firmware without full peripheral emulation.
+* [Hoedur](https://github.com/fuzzware-fuzzer/hoedur) ⭐ 73 | 🐛 3 | 🌐 Rust | 📅 2025-05-12 (2023) - An embedded firmware fuzzer that uses multiple input streams to represent interactions with different hardware interfaces.
+
+### Hypervisors & Virtual Devices
+
+* [V-SHUTTLE](https://github.com/hustdebug/v-shuttle) ⭐ 100 | 🐛 12 | 🌐 C | 📅 2023-12-01 (2021) - An AFL-based fuzzer for virtual devices in hosted hypervisors, with semantics-aware input generation.
+* [HyperPill](https://github.com/HexHive/HyperPill) ⭐ 65 | 🐛 4 | 🌐 C++ | 📅 2026-03-26 (2024) - A hypervisor fuzzer that uses the hardware virtualization interface to exercise hypervisor behavior without hypervisor-specific input grammars.
+* [ViDeZZo](https://github.com/HexHive/ViDeZZo) ⭐ 40 | 🐛 3 | 🌐 C | 📅 2026-04-08 (2023) - A virtual device fuzzing framework that models dependencies within and between messages to test devices in QEMU and VirtualBox.
+
+### Hardware & Microarchitecture
+
+* [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) ⭐ 101 | 🐛 2 | 🌐 Verilog | 📅 2024-05-27 - A differential fuzz testing approach for CPU verification.
 * [MorFuzz](https://github.com/sycuricon/MorFuzz) ⭐ 52 | 🐛 1 | 🌐 Verilog | 📅 2025-04-22 - A generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
-* [SpecFuzz](https://github.com/tudinfse/SpecFuzz) ⭐ 32 | 🐛 0 | 🌐 C++ | 📅 2020-02-20 - A tool to enable fuzzing for Spectre vulnerabilities.
+* [SpecFuzz](https://github.com/tudinfse/SpecFuzz) ⭐ 32 | 🐛 0 | 🌐 C++ | 📅 2020-02-20 - A tool that exposes speculative execution paths through software instrumentation so fuzzers can detect Spectre-type vulnerabilities in programs.
 * [Transynther](https://github.com/vernamlab/Medusa) ⭐ 20 | 🐛 0 | 📅 2020-07-14 - Automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
 
-### Lib
+### Android & Mobile Systems
 
-### Web
+* [FANS](https://github.com/iromise/fans) ⭐ 265 | 🐛 0 | 🌐 C++ | 📅 2020-09-23 - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
+* [MALintent](https://github.com/sslab-gatech/MALintent) ⭐ 37 | 🐛 1 | 🌐 Rust | 📅 2026-06-05 (2025) - A coverage-guided Android fuzzer that generates and mutates intents to test application intent receivers.
+* [AHA-Fuzz](https://github.com/S2-Lab/AHA-fuzz) ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2025-12-02 (2025) - An intent-aware greybox fuzzer that uses eBPF-based analysis to test hardened Android applications.
 
-* [Witcher](https://github.com/sefcom/Witcher) ⭐ 109 | 🐛 6 | 🌐 C | 📅 2023-11-28 - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
-* [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2023-04-07 - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
-* [CorbFuzz](https://github.com/shouc/corbfuzz) ⭐ 6 | 🐛 0 | 🌐 C | 📅 2021-08-29 - A state-aware fuzzer for generating as many responses from a web application as possible without need of setting up a database.
+### Blockchain & Smart Contracts
 
-### DOM
-
-### Argument
-
-### Blockchain
-
+* [ILF](https://github.com/eth-sri/ilf) ⭐ 155 | 🐛 4 | 🌐 Python | 📅 2024-06-17 (2019) - An Ethereum smart contract fuzzer that learns a transaction-generation policy from symbolic execution through imitation learning.
 * [Fluffy](https://github.com/snuspl/fluffy) ⭐ 62 | 🐛 1 | 🌐 Go | 📅 2021-07-14 - A multi-transaction differential fuzzer for finding consensus bugs in Ethereum.
 * [LOKI](https://github.com/ConsensusFuzz/LOKI) ⭐ 20 | 🐛 3 | 🌐 Go | 📅 2023-06-12 - A Blockchain consensus protocol fuzzing framework that detects consensus memory related and logic bugs.
 
 ### DBMS
 
 * [Squirrel](https://github.com/s3team/Squirrel) ⭐ 215 | 🐛 0 | 🌐 C++ | 📅 2023-01-23 - A fuzzer for database management systems (DBMSs).
+* [SQLRight](https://github.com/PSU-Security-Universe/sqlright) ⭐ 66 | 🐛 2 | 🌐 C | 📅 2022-10-28 (2022) - A DBMS fuzzer that combines coverage feedback, validity-oriented query mutations, and result-checking oracles to detect logical bugs.
+* [BuzzBee](https://github.com/OMH4ck/BuzzBee) ⭐ 9 | 🐛 4 | 🌐 C++ | 📅 2024-09-14 (2024) - A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.
 
-## Contribute
+## Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-14._
