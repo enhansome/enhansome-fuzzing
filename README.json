@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3828,
+            "stars": 3827,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -89,7 +89,7 @@
                 "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6752,
+                "stars": 6754,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -123,10 +123,10 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-07T11:54:32Z",
-                "open_issues": 120,
+                "open_issues": 121,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2642,
+                "stars": 2643,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -410,8 +410,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-14T10:37:03Z",
-                "open_issues": 630,
+                "last_commit": "2026-09-15T09:43:41Z",
+                "open_issues": 637,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6323,
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-14T10:58:51.509Z",
+    "last_updated": "2026-09-15T10:27:46.130Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1899,7 +1899,7 @@
       "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 990,
+      "stars": 994,
       "topics": [
         "awesome",
         "awesome-list",
