@@ -122,11 +122,11 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-15T22:22:05Z",
-                "open_issues": 117,
+                "last_commit": "2026-09-16T11:53:47Z",
+                "open_issues": 120,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2642,
+                "stars": 2640,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -410,11 +410,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-16T09:37:35Z",
+                "last_commit": "2026-09-17T10:24:39Z",
                 "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6322,
+                "stars": 6323,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -494,7 +494,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 385,
+                "stars": 384,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -1100,7 +1100,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 396,
+                "stars": 398,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -1467,7 +1467,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 385,
+                "stars": 386,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-16T10:18:09.241Z",
+    "last_updated": "2026-09-17T10:26:36.145Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
