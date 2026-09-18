@@ -89,7 +89,7 @@
                 "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6755,
+                "stars": 6757,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -126,7 +126,7 @@
                 "open_issues": 120,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2640,
+                "stars": 2643,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -410,8 +410,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-17T10:24:39Z",
-                "open_issues": 632,
+                "last_commit": "2026-09-18T06:37:57Z",
+                "open_issues": 637,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6323,
@@ -922,7 +922,7 @@
                 "open_issues": 1,
                 "owner": "yonsei-sslab",
                 "repo": "moneta",
-                "stars": 27,
+                "stars": 28,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -1179,7 +1179,7 @@
                 "open_issues": 35,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
-                "stars": 226,
+                "stars": 227,
                 "topics": [
                   "api-fuzzer",
                   "fuzzer",
@@ -1467,7 +1467,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 386,
+                "stars": 385,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-17T10:26:36.145Z",
+    "last_updated": "2026-09-18T10:03:28.963Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
