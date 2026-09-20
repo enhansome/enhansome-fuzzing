@@ -89,7 +89,7 @@
                 "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6758,
+                "stars": 6760,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -411,7 +411,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-18T06:37:57Z",
-                "open_issues": 640,
+                "open_issues": 641,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6325,
@@ -712,7 +712,7 @@
                 "open_issues": 0,
                 "owner": "securesystemslab",
                 "repo": "periscope",
-                "stars": 71,
+                "stars": 72,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-19T09:43:12.784Z",
+    "last_updated": "2026-09-20T10:06:49.421Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",

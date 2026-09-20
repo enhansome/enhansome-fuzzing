@@ -627,7 +627,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,758 | 🐛 24 | 🌐 C | 📅 2026-09-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,760 | 🐛 24 | 🌐 C | 📅 2026-09-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,643 | 🐛 122 | 🌐 Rust | 📅 2026-09-16 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 981 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
@@ -645,7 +645,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,325 | 🐛 640 | 🌐 Go | 📅 2026-09-18 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,325 | 🐛 641 | 🌐 Go | 📅 2026-09-18 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-08 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 384 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
@@ -657,7 +657,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 * [IMF](https://github.com/SoftSec-KAIST/IMF) ⭐ 112 | 🐛 2 | 🌐 Python | 📅 2022-01-22 (2017) - A kernel API fuzzer that leverages automated API model inference to discover vulnerabilities in macOS kernel APIs.
 * [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 101 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
 * [KextFuzz](https://github.com/vul337/KextFuzz) ⭐ 97 | 🐛 0 | 🌐 Python | 📅 2023-08-31 (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
-* [PeriScope](https://github.com/securesystemslab/periscope) ⭐ 71 | 🐛 0 | 🌐 C | 📅 2019-03-27 (2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.
+* [PeriScope](https://github.com/securesystemslab/periscope) ⭐ 72 | 🐛 0 | 🌐 C | 📅 2019-03-27 (2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.
 * [SyzGen](https://github.com/seclab-ucr/SyzGen_setup) ⭐ 48 | 🐛 3 | 🌐 Go | 📅 2021-10-28 (2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.
 * [ACTOR](https://github.com/ucsb-seclab/actor) ⭐ 42 | 🐛 1 | 🌐 Go | 📅 2024-05-06 (2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.
 * [SyzDirect](https://github.com/seclab-fudan/SyzDirect) ⭐ 41 | 🐛 11 | 📅 2024-05-31 (2023) - A directed greybox fuzzer for reaching target locations in the Linux kernel.
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-20._
