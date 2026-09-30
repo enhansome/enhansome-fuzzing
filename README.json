@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3898,
+            "stars": 3900,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -126,7 +126,7 @@
                 "open_issues": 123,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2645,
+                "stars": 2646,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -208,7 +208,7 @@
                 "open_issues": 8,
                 "owner": "sslab-gatech",
                 "repo": "qsym",
-                "stars": 654,
+                "stars": 655,
                 "topics": [
                   "binary",
                   "concolic-execution",
@@ -410,11 +410,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-29T11:05:43Z",
-                "open_issues": 638,
+                "last_commit": "2026-09-30T11:01:43Z",
+                "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6332,
+                "stars": 6333,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1100,7 +1100,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 398,
+                "stars": 399,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-29T11:34:49.954Z",
+    "last_updated": "2026-09-30T11:21:44.528Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1899,7 +1899,7 @@
       "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 999,
+      "stars": 1000,
       "topics": [
         "awesome",
         "awesome-list",
