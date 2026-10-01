@@ -123,10 +123,10 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-16T11:53:47Z",
-                "open_issues": 123,
+                "open_issues": 125,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2646,
+                "stars": 2645,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -410,11 +410,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T11:01:43Z",
-                "open_issues": 632,
+                "last_commit": "2026-10-01T10:42:36Z",
+                "open_issues": 634,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6333,
+                "stars": 6332,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-30T11:21:44.528Z",
+    "last_updated": "2026-10-01T11:48:49.667Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
