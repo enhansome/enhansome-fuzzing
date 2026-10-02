@@ -15,7 +15,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,900 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,901 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -627,7 +627,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,777 | 🐛 22 | 🌐 C | 📅 2026-09-28 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,777 | 🐛 22 | 🌐 C | 📅 2026-10-02 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,645 | 🐛 125 | 🌐 Rust | 📅 2026-09-16 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 984 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
@@ -637,7 +637,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 * [AFLFast](https://github.com/mboehme/aflfast) ⭐ 424 | 🐛 1 | 🌐 C | 📅 2023-06-16 (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
 * [REDQUEEN](https://github.com/RUB-SysSec/redqueen) ⭐ 401 | 🐛 4 | 🌐 Python | 📅 2021-09-23 (2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.
 * [MOpt-AFL](https://github.com/puppet-meteor/MOpt-AFL) ⭐ 214 | 🐛 2 | 🌐 C | 📅 2021-01-26 (2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.
-* [VUzzer](https://github.com/vusec/vuzzer64) ⭐ 183 | 🐛 14 | 🌐 C++ | 📅 2022-03-29 (2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.
+* [VUzzer](https://github.com/vusec/vuzzer64) ⭐ 184 | 🐛 14 | 🌐 C++ | 📅 2022-03-29 (2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.
 * [InsTrim](https://github.com/csienslab/instrim) ⭐ 84 | 🐛 5 | 🌐 C++ | 📅 2020-06-21 (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
 * [G2FUZZ](https://github.com/G2FUZZ/G2FUZZ) ⭐ 31 | 🐛 0 | 🌐 C | 📅 2025-11-05 (2025) - An AFL++-based fuzzer that uses LLMs to synthesize and mutate input generators for grammar-aware fuzzing of non-textual formats.
 * [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its GitHub repository is archived; AFL++ is recommended for new projects.
@@ -645,14 +645,14 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,332 | 🐛 634 | 🌐 Go | 📅 2026-10-01 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,334 | 🐛 632 | 🌐 Go | 📅 2026-10-02 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-24 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 384 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
 * [Razzer](https://github.com/compsec-snu/razzer) ⭐ 377 | 🐛 9 | 🌐 C | 📅 2019-07-10 (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
 * [Janus](https://github.com/sslab-gatech/janus) ⭐ 238 | 🐛 6 | 🌐 C | 📅 2019-12-23 (2019) - A file system fuzzer that finds memory corruptions in Linux kernel file systems by mutating both filesystem images and syscall sequences simultaneously.
 * [Hydra](https://github.com/sslab-gatech/hydra) ⭐ 178 | 🐛 6 | 🌐 C | 📅 2022-08-08 (2019) - A fuzzing framework for automatically discovering semantic bugs in file systems using input mutators, feedback engines, and customizable checkers.
-* [VirtFuzz](https://github.com/seemoo-lab/VirtFuzz) ⭐ 134 | 🐛 2 | 🌐 Rust | 📅 2024-06-07 (2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.
+* [VirtFuzz](https://github.com/seemoo-lab/VirtFuzz) ⭐ 135 | 🐛 2 | 🌐 Rust | 📅 2024-06-07 (2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.
 * [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 113 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
 * [IMF](https://github.com/SoftSec-KAIST/IMF) ⭐ 112 | 🐛 2 | 🌐 Python | 📅 2022-01-22 (2017) - A kernel API fuzzer that leverages automated API model inference to discover vulnerabilities in macOS kernel APIs.
 * [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 101 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-01._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._

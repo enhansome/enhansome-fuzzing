@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3900,
+            "stars": 3901,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -85,7 +85,7 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-09-28T13:20:27Z",
+                "last_commit": "2026-10-02T09:20:34Z",
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
@@ -344,7 +344,7 @@
                 "open_issues": 14,
                 "owner": "vusec",
                 "repo": "vuzzer64",
-                "stars": 183,
+                "stars": 184,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -410,11 +410,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-01T10:42:36Z",
-                "open_issues": 634,
+                "last_commit": "2026-10-02T10:23:01Z",
+                "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6332,
+                "stars": 6334,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -591,7 +591,7 @@
                 "open_issues": 2,
                 "owner": "seemoo-lab",
                 "repo": "VirtFuzz",
-                "stars": 134,
+                "stars": 135,
                 "topics": [
                   "fuzzing",
                   "libafl",
@@ -1887,7 +1887,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-01T11:48:49.667Z",
+    "last_updated": "2026-10-02T11:21:49.722Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
