@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3903,
+            "stars": 3905,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -100,10 +100,10 @@
                 "language": "C",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-10-02T09:20:34Z",
-                "open_issues": 22,
+                "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6782,
+                "stars": 6783,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 128,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2648,
+                "stars": 2649,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-05T11:33:37Z",
-                "open_issues": 634,
+                "last_commit": "2026-10-05T22:18:22Z",
+                "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6336,
+                "stars": 6339,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-05T12:33:40Z",
-                "open_issues": 42,
+                "last_commit": "2026-10-06T10:19:43Z",
+                "open_issues": 43,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 228,
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-05T12:39:55.804Z",
+    "last_updated": "2026-10-06T10:28:27.356Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
