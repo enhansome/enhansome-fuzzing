@@ -455,7 +455,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-24T19:42:31Z",
+                "last_commit": "2026-10-06T10:38:37Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-06T10:19:43Z",
-                "open_issues": 43,
+                "last_commit": "2026-10-06T10:51:17Z",
+                "open_issues": 41,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 228,
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T10:28:27.356Z",
+    "last_updated": "2026-10-06T12:13:49.204Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
