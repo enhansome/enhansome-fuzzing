@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-10-02T09:20:34Z",
-                "open_issues": 24,
+                "last_commit": "2026-10-07T08:52:32Z",
+                "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6783,
+                "stars": 6784,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-05T22:18:22Z",
-                "open_issues": 632,
+                "last_commit": "2026-10-07T09:17:35Z",
+                "open_issues": 634,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6339,
+                "stars": 6342,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -630,7 +630,7 @@
                 "open_issues": 6,
                 "owner": "SoftSec-KAIST",
                 "repo": "NTFuzz",
-                "stars": 113,
+                "stars": 114,
                 "topics": [
                   "b2r2",
                   "binary-analysis",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-06T10:51:17Z",
-                "open_issues": 41,
+                "last_commit": "2026-10-07T10:28:31Z",
+                "open_issues": 39,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 228,
@@ -1535,7 +1535,7 @@
                 "open_issues": 12,
                 "owner": "hustdebug",
                 "repo": "v-shuttle",
-                "stars": 100,
+                "stars": 101,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -1876,7 +1876,7 @@
               "description": "A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.",
               "children": [],
               "repo_info": {
-                "archived": false,
+                "archived": true,
                 "description": null,
                 "homepage": null,
                 "id": 857512299,
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T12:13:49.204Z",
+    "last_updated": "2026-10-07T12:00:40.886Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",

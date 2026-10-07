@@ -627,7 +627,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,783 | 🐛 24 | 🌐 C | 📅 2026-10-02 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,784 | 🐛 22 | 🌐 C | 📅 2026-10-07 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,649 | 🐛 128 | 🌐 Rust | 📅 2026-09-16 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 984 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
@@ -645,7 +645,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,339 | 🐛 632 | 🌐 Go | 📅 2026-10-05 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,342 | 🐛 634 | 🌐 Go | 📅 2026-10-07 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-10-06 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 595 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 384 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
@@ -653,7 +653,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 * [Janus](https://github.com/sslab-gatech/janus) ⭐ 238 | 🐛 6 | 🌐 C | 📅 2019-12-23 (2019) - A file system fuzzer that finds memory corruptions in Linux kernel file systems by mutating both filesystem images and syscall sequences simultaneously.
 * [Hydra](https://github.com/sslab-gatech/hydra) ⭐ 178 | 🐛 6 | 🌐 C | 📅 2022-08-08 (2019) - A fuzzing framework for automatically discovering semantic bugs in file systems using input mutators, feedback engines, and customizable checkers.
 * [VirtFuzz](https://github.com/seemoo-lab/VirtFuzz) ⭐ 135 | 🐛 2 | 🌐 Rust | 📅 2024-06-07 (2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.
-* [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 113 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
+* [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 114 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
 * [IMF](https://github.com/SoftSec-KAIST/IMF) ⭐ 112 | 🐛 2 | 🌐 Python | 📅 2022-01-22 (2017) - A kernel API fuzzer that leverages automated API model inference to discover vulnerabilities in macOS kernel APIs.
 * [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 101 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
 * [KextFuzz](https://github.com/vul337/KextFuzz) ⭐ 97 | 🐛 0 | 🌐 Python | 📅 2023-08-31 (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
@@ -687,7 +687,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Web Applications & APIs
 
-* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 228 | 🐛 41 | 🌐 Rust | 📅 2026-10-06 - A coverage-guided REST API fuzzer developed on top of LibAFL.
+* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 228 | 🐛 39 | 🌐 Rust | 📅 2026-10-07 - A coverage-guided REST API fuzzer developed on top of LibAFL.
 * [Witcher](https://github.com/sefcom/Witcher) ⭐ 108 | 🐛 6 | 🌐 C | 📅 2023-11-28 - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
 * [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 65 | 🐛 2 | 🌐 Java | 📅 2025-12-21 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
 * [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
@@ -713,7 +713,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Hypervisors & Virtual Devices
 
-* [V-SHUTTLE](https://github.com/hustdebug/v-shuttle) ⭐ 100 | 🐛 12 | 🌐 C | 📅 2023-12-01 (2021) - An AFL-based fuzzer for virtual devices in hosted hypervisors, with semantics-aware input generation.
+* [V-SHUTTLE](https://github.com/hustdebug/v-shuttle) ⭐ 101 | 🐛 12 | 🌐 C | 📅 2023-12-01 (2021) - An AFL-based fuzzer for virtual devices in hosted hypervisors, with semantics-aware input generation.
 * [HyperPill](https://github.com/HexHive/HyperPill) ⭐ 66 | 🐛 4 | 🌐 C++ | 📅 2026-03-26 (2024) - A hypervisor fuzzer that uses the hardware virtualization interface to exercise hypervisor behavior without hypervisor-specific input grammars.
 * [ViDeZZo](https://github.com/HexHive/ViDeZZo) ⭐ 40 | 🐛 3 | 🌐 C | 📅 2026-04-08 (2023) - A virtual device fuzzing framework that models dependencies within and between messages to test devices in QEMU and VirtualBox.
 
@@ -740,7 +740,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 * [Squirrel](https://github.com/s3team/Squirrel) ⭐ 215 | 🐛 0 | 🌐 C++ | 📅 2023-01-23 - A fuzzer for database management systems (DBMSs).
 * [SQLRight](https://github.com/PSU-Security-Universe/sqlright) ⭐ 66 | 🐛 2 | 🌐 C | 📅 2022-10-28 (2022) - A DBMS fuzzer that combines coverage feedback, validity-oriented query mutations, and result-checking oracles to detect logical bugs.
-* [BuzzBee](https://github.com/OMH4ck/BuzzBee) ⭐ 9 | 🐛 4 | 🌐 C++ | 📅 2024-09-14 (2024) - A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.
+* [BuzzBee](https://github.com/OMH4ck/BuzzBee) ⚠️ Archived (2024) - A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.
 
 ## Contributing
 
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-07._
