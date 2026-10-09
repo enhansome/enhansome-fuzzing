@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3907,
+            "stars": 3908,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -103,7 +103,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6783,
+                "stars": 6782,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2651,
+                "stars": 2652,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,8 +424,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-07T14:51:39Z",
-                "open_issues": 635,
+                "last_commit": "2026-10-09T12:00:03Z",
+                "open_issues": 633,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6343,
@@ -1114,7 +1114,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 400,
+                "stars": 401,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-08T12:14:37.901Z",
+    "last_updated": "2026-10-09T12:06:04.016Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1913,7 +1913,7 @@
       "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 1001,
+      "stars": 1003,
       "topics": [
         "awesome",
         "awesome-list",
