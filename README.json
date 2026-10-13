@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3912,
+            "stars": 3911,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -103,7 +103,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6792,
+                "stars": 6796,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2654,
+                "stars": 2655,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-12T12:48:42Z",
+                "last_commit": "2026-10-13T08:29:30Z",
                 "open_issues": 637,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6346,
+                "stars": 6347,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1052,7 +1052,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 268,
+                "stars": 269,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-12T13:32:14.243Z",
+    "last_updated": "2026-10-13T12:57:21.259Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1913,7 +1913,7 @@
       "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 1003,
+      "stars": 1004,
       "topics": [
         "awesome",
         "awesome-list",
