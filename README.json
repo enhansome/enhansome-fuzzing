@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3911,
+            "stars": 3914,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -103,7 +103,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6796,
+                "stars": 6801,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2655,
+                "stars": 2660,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -274,7 +274,7 @@
                 "open_issues": 22,
                 "owner": "aflgo",
                 "repo": "aflgo",
-                "stars": 559,
+                "stars": 560,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-13T08:29:30Z",
-                "open_issues": 637,
+                "last_commit": "2026-10-14T10:23:36Z",
+                "open_issues": 638,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6347,
+                "stars": 6350,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -508,7 +508,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 384,
+                "stars": 385,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -584,7 +584,7 @@
                 "open_issues": 6,
                 "owner": "sslab-gatech",
                 "repo": "hydra",
-                "stars": 178,
+                "stars": 179,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -1052,7 +1052,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 269,
+                "stars": 270,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-13T12:57:21.259Z",
+    "last_updated": "2026-10-14T10:37:11.990Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
