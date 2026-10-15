@@ -103,7 +103,7 @@
                 "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6801,
+                "stars": 6803,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -172,7 +172,7 @@
                 "open_issues": 37,
                 "owner": "shellphish",
                 "repo": "driller",
-                "stars": 984,
+                "stars": 985,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-14T10:23:36Z",
-                "open_issues": 638,
+                "last_commit": "2026-10-14T12:49:12Z",
+                "open_issues": 635,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6350,
+                "stars": 6353,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -480,7 +480,7 @@
                 "open_issues": 15,
                 "owner": "RUB-SysSec",
                 "repo": "kAFL",
-                "stars": 595,
+                "stars": 596,
                 "topics": [
                   "fuzzing",
                   "intel-pt",
@@ -1189,11 +1189,11 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-07T17:51:18Z",
-                "open_issues": 35,
+                "last_commit": "2026-10-14T15:29:35Z",
+                "open_issues": 36,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
-                "stars": 227,
+                "stars": 228,
                 "topics": [
                   "api-fuzzer",
                   "fuzzer",
@@ -1241,7 +1241,7 @@
                 "open_issues": 2,
                 "owner": "SeUniVr",
                 "repo": "RestTestGen",
-                "stars": 65,
+                "stars": 66,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-14T10:37:11.990Z",
+    "last_updated": "2026-10-15T10:19:06.277Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
