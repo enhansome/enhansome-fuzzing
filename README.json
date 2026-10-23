@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3914,
+            "stars": 3916,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -100,10 +100,10 @@
                 "language": "C",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-10-19T13:54:36Z",
-                "open_issues": 22,
+                "open_issues": 23,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6821,
+                "stars": 6823,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 130,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2663,
+                "stars": 2664,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -274,7 +274,7 @@
                 "open_issues": 22,
                 "owner": "aflgo",
                 "repo": "aflgo",
-                "stars": 560,
+                "stars": 561,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-22T10:17:45Z",
+                "last_commit": "2026-10-23T10:03:36Z",
                 "open_issues": 637,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6368,
+                "stars": 6370,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1052,7 +1052,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 273,
+                "stars": 274,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-22T10:39:16.846Z",
+    "last_updated": "2026-10-23T10:31:32.062Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1913,7 +1913,7 @@
       "open_issues": 0,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 1014,
+      "stars": 1016,
       "topics": [
         "awesome",
         "awesome-list",
