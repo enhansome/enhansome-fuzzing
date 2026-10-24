@@ -103,7 +103,7 @@
                 "open_issues": 23,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6823,
+                "stars": 6825,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 130,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2664,
+                "stars": 2666,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -172,7 +172,7 @@
                 "open_issues": 37,
                 "owner": "shellphish",
                 "repo": "driller",
-                "stars": 985,
+                "stars": 984,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -425,10 +425,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-23T10:03:36Z",
-                "open_issues": 637,
+                "open_issues": 643,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6370,
+                "stars": 6372,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -455,7 +455,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-21T17:19:33Z",
+                "last_commit": "2026-10-24T06:30:37Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -1052,7 +1052,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 274,
+                "stars": 275,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -1237,7 +1237,7 @@
                 "id": 441480814,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-21T18:18:23Z",
+                "last_commit": "2026-10-23T13:15:45Z",
                 "open_issues": 2,
                 "owner": "SeUniVr",
                 "repo": "RestTestGen",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-23T10:31:32.062Z",
+    "last_updated": "2026-10-24T09:47:54.181Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
