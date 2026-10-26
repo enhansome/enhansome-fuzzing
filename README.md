@@ -15,7 +15,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,918 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,920 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -627,9 +627,9 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,827 | 🐛 25 | 🌐 C | 📅 2026-10-19 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,667 | 🐛 131 | 🌐 Rust | 📅 2026-10-19 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
-* [Driller](https://github.com/shellphish/driller) ⭐ 985 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,830 | 🐛 21 | 🌐 C | 📅 2026-10-25 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,668 | 🐛 130 | 🌐 Rust | 📅 2026-10-26 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
+* [Driller](https://github.com/shellphish/driller) ⭐ 986 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 * [QSYM](https://github.com/sslab-gatech/qsym) ⚠️ Archived (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
 * [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 574 | 🐛 15 | 🌐 C | 📅 2022-11-28 (2021) - A Windows application fuzzer that combines harness synthesis with fast process cloning to test code beyond graphical interfaces.
@@ -645,8 +645,8 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,375 | 🐛 643 | 🌐 Go | 📅 2026-10-23 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
-* [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-10-24 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,379 | 🐛 639 | 🌐 Go | 📅 2026-10-26 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [Trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 2 | 🌐 C | 📅 2026-10-24 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 596 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 386 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
 * [Razzer](https://github.com/compsec-snu/razzer) ⭐ 377 | 🐛 9 | 🌐 C | 📅 2019-07-10 (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
@@ -687,7 +687,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Web Applications & APIs
 
-* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 229 | 🐛 37 | 🌐 Rust | 📅 2026-10-21 - A coverage-guided REST API fuzzer developed on top of LibAFL.
+* [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) ⭐ 229 | 🐛 38 | 🌐 Rust | 📅 2026-10-26 - A coverage-guided REST API fuzzer developed on top of LibAFL.
 * [Witcher](https://github.com/sefcom/Witcher) ⭐ 108 | 🐛 6 | 🌐 C | 📅 2023-11-28 - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
 * [RestTestGen](https://github.com/SeUniVr/RestTestGen) ⭐ 66 | 🐛 2 | 🌐 Java | 📅 2026-10-23 - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
 * [MINER](https://github.com/puppet-meteor/MINER) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2023-03-15 - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
@@ -727,7 +727,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 ### Android & Mobile Systems
 
 * [FANS](https://github.com/iromise/fans) ⭐ 265 | 🐛 0 | 🌐 C++ | 📅 2020-09-23 - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
-* [MALintent](https://github.com/sslab-gatech/MALintent) ⭐ 37 | 🐛 1 | 🌐 Rust | 📅 2026-06-05 (2025) - A coverage-guided Android fuzzer that generates and mutates intents to test application intent receivers.
+* [MALintent](https://github.com/sslab-gatech/MALintent) ⭐ 38 | 🐛 1 | 🌐 Rust | 📅 2026-06-05 (2025) - A coverage-guided Android fuzzer that generates and mutates intents to test application intent receivers.
 * [AHA-Fuzz](https://github.com/S2-Lab/AHA-fuzz) ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2025-12-02 (2025) - An intent-aware greybox fuzzer that uses eBPF-based analysis to test hardened Android applications.
 
 ### Blockchain & Smart Contracts
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-26._
