@@ -100,10 +100,10 @@
                 "language": "C",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-10-25T14:53:50Z",
-                "open_issues": 22,
+                "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6831,
+                "stars": 6834,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2670,
+                "stars": 2671,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,8 +424,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T09:45:17Z",
-                "open_issues": 639,
+                "last_commit": "2026-10-28T09:12:48Z",
+                "open_issues": 643,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6380,
@@ -455,7 +455,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-27T01:53:31Z",
+                "last_commit": "2026-10-28T02:27:13Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -584,7 +584,7 @@
                 "open_issues": 6,
                 "owner": "sslab-gatech",
                 "repo": "hydra",
-                "stars": 179,
+                "stars": 180,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -768,7 +768,7 @@
                 "open_issues": 1,
                 "owner": "ucsb-seclab",
                 "repo": "actor",
-                "stars": 42,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -1189,7 +1189,7 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T15:06:08Z",
+                "last_commit": "2026-10-28T10:27:23Z",
                 "open_issues": 41,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-27T11:00:07.301Z",
+    "last_updated": "2026-10-28T11:39:21.834Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
