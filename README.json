@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3921,
+            "stars": 3923,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-10-25T14:53:50Z",
-                "open_issues": 24,
+                "last_commit": "2026-10-30T10:50:54Z",
+                "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6838,
+                "stars": 6840,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-29T09:27:21Z",
-                "open_issues": 644,
+                "last_commit": "2026-10-30T10:01:23Z",
+                "open_issues": 643,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6383,
+                "stars": 6385,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -455,7 +455,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-28T15:37:21Z",
+                "last_commit": "2026-10-29T22:50:17Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -1481,7 +1481,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 389,
+                "stars": 390,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-29T11:46:17.337Z",
+    "last_updated": "2026-10-30T11:39:01.291Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
