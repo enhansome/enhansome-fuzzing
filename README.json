@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3926,
+            "stars": 3929,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -100,10 +100,10 @@
                 "language": "C",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-10-30T16:04:21Z",
-                "open_issues": 21,
+                "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6851,
+                "stars": 6859,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2675,
+                "stars": 2676,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -295,7 +295,7 @@
                 "open_issues": 1,
                 "owner": "mboehme",
                 "repo": "aflfast",
-                "stars": 423,
+                "stars": 424,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-03T12:36:55Z",
+                "last_commit": "2026-11-04T12:41:27Z",
                 "open_issues": 646,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6387,
+                "stars": 6388,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-03T12:34:34Z",
-                "open_issues": 44,
+                "last_commit": "2026-11-04T13:07:27Z",
+                "open_issues": 41,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 232,
@@ -1481,7 +1481,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 391,
+                "stars": 392,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-03T13:00:08.503Z",
+    "last_updated": "2026-11-04T13:17:17.825Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
