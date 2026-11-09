@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-11-07T16:35:10Z",
-                "open_issues": 27,
+                "last_commit": "2026-11-08T14:33:03Z",
+                "open_issues": 23,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6862,
+                "stars": 6863,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2677,
+                "stars": 2678,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -428,7 +428,7 @@
                 "open_issues": 651,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6396,
+                "stars": 6398,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -508,7 +508,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 386,
+                "stars": 387,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-05T11:21:30Z",
-                "open_issues": 39,
+                "last_commit": "2026-11-09T12:24:05Z",
+                "open_issues": 41,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 232,
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-08T12:12:10.422Z",
+    "last_updated": "2026-11-09T14:21:49.749Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
