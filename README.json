@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3930,
+            "stars": 3932,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -103,7 +103,7 @@
                 "open_issues": 24,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6866,
+                "stars": 6867,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2678,
+                "stars": 2679,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -337,7 +337,7 @@
                 "open_issues": 2,
                 "owner": "puppet-meteor",
                 "repo": "MOpt-AFL",
-                "stars": 214,
+                "stars": 215,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-10T10:35:27Z",
-                "open_issues": 648,
+                "last_commit": "2026-11-11T12:47:03Z",
+                "open_issues": 652,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6402,
+                "stars": 6407,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -455,7 +455,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-10T03:21:53Z",
+                "last_commit": "2026-11-11T03:20:48Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -584,7 +584,7 @@
                 "open_issues": 6,
                 "owner": "sslab-gatech",
                 "repo": "hydra",
-                "stars": 180,
+                "stars": 181,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -684,7 +684,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "StateFuzz",
-                "stars": 101,
+                "stars": 102,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -982,7 +982,7 @@
                 "open_issues": 0,
                 "owner": "SyzTrust",
                 "repo": "syztrust",
-                "stars": 19,
+                "stars": 20,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -1114,7 +1114,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 400,
+                "stars": 401,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -1189,8 +1189,8 @@
                 "id": 827721685,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-10T11:13:58Z",
-                "open_issues": 38,
+                "last_commit": "2026-11-11T09:24:44Z",
+                "open_issues": 37,
                 "owner": "TNO-S3",
                 "repo": "WuppieFuzz",
                 "stars": 232,
@@ -1816,7 +1816,7 @@
                 "open_issues": 3,
                 "owner": "ConsensusFuzz",
                 "repo": "LOKI",
-                "stars": 20,
+                "stars": 21,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:42:49.031Z"
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-10T13:46:23.843Z",
+    "last_updated": "2026-11-11T12:57:34.837Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
