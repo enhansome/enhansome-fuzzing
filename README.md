@@ -15,7 +15,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 ## Books
 
-* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,932 | 🐛 28 | 📅 2026-06-16
+* [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101) ⭐ 3,933 | 🐛 28 | 📅 2026-06-16
 * [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 * [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 * [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - Actually, this document is a paper, but it contains more important and essential content than any other book.
@@ -226,7 +226,7 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 <details><summary>2022 (5 papers)</summary>
 
-* [FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022](https://github.com/purseclab/fuzzusb/blob/main/paper/fuzzusb.pdf) ⭐ 37 | 🐛 2 | 🌐 C | 📅 2022-05-11
+* [FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks, 2022](https://github.com/purseclab/fuzzusb/blob/main/paper/fuzzusb.pdf) ⭐ 38 | 🐛 2 | 🌐 C | 📅 2022-05-11
 * [PATA: Fuzzing with Path Aware Taint Analysis, 2022](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/sp22.pdf)
 * [Jigsaw: Efficient and Scalable Path Constraints Fuzzing, 2022](https://www.cs.ucr.edu/~csong/oakland22-jigsaw.pdf)
 * [Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis, 2022](https://arxiv.org/pdf/2203.12064.pdf)
@@ -627,8 +627,8 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,869 | 🐛 24 | 🌐 C | 📅 2026-11-08 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,679 | 🐛 138 | 🌐 Rust | 📅 2026-11-02 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,870 | 🐛 25 | 🌐 C | 📅 2026-11-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,681 | 🐛 138 | 🌐 Rust | 📅 2026-11-02 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 988 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 958 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 * [QSYM](https://github.com/sslab-gatech/qsym) ⚠️ Archived (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
@@ -645,7 +645,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,409 | 🐛 652 | 🌐 Go | 📅 2026-11-12 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,410 | 🐛 649 | 🌐 Go | 📅 2026-11-13 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 911 | 🐛 1 | 🌐 C | 📅 2026-11-11 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 597 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 388 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
@@ -661,8 +661,8 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 * [SyzGen](https://github.com/seclab-ucr/SyzGen_setup) ⭐ 49 | 🐛 3 | 🌐 Go | 📅 2021-10-28 (2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.
 * [ACTOR](https://github.com/ucsb-seclab/actor) ⭐ 43 | 🐛 1 | 🌐 Go | 📅 2024-05-06 (2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.
 * [SyzDirect](https://github.com/seclab-fudan/SyzDirect) ⭐ 42 | 🐛 11 | 📅 2024-05-31 (2023) - A directed greybox fuzzer for reaching target locations in the Linux kernel.
+* [FuzzUSB](https://github.com/purseclab/fuzzusb) ⭐ 38 | 🐛 2 | 🌐 C | 📅 2022-05-11 (2022) - A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.
 * [FuzzNG](https://github.com/BUseclab/FuzzNG) ⭐ 37 | 🐛 1 | 🌐 C++ | 📅 2023-06-05 (2023) - A Linux kernel syscall fuzzer designed to minimize reliance on manually written system call descriptions.
-* [FuzzUSB](https://github.com/purseclab/fuzzusb) ⭐ 37 | 🐛 2 | 🌐 C | 📅 2022-05-11 (2022) - A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.
 * [SegFuzz](https://github.com/casys-kaist/segfuzz) ⭐ 32 | 🐛 1 | 🌐 C | 📅 2024-04-02 (2023) - A kernel concurrency fuzzer that uses interleaving segment coverage and mutation-based thread scheduling to discover bugs.
 * [KRACE](https://github.com/sslab-gatech/krace) ⭐ 32 | 🐛 2 | 🌐 Python | 📅 2021-11-15 (2020) - A coverage-guided fuzzing framework that detects data races in kernel file systems by exploring concurrency through multi-threaded syscall sequences.
 * [CountDown](https://github.com/psu-security-universe/countdown) ⭐ 29 | 🐛 0 | 🌐 Go | 📅 2025-06-24 (2024) - A kernel fuzzer that uses shared reference counts to guide syscall sequences toward use-after-free bugs.
@@ -708,7 +708,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 ### Firmware & Embedded Systems
 
 * [FIRM-AFL](https://github.com/zyw-200/FirmAFL) ⭐ 464 | 🐛 45 | 🌐 C | 📅 2024-03-22 (2019) - An IoT firmware fuzzer that combines user-mode and system-mode emulation to improve fuzzing throughput for POSIX-compatible firmware.
-* [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) ⭐ 393 | 🐛 15 | 🌐 Python | 📅 2026-06-27 (2022) - A firmware fuzzer that models memory-mapped I/O accesses to test microcontroller firmware without full peripheral emulation.
+* [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) ⭐ 394 | 🐛 15 | 🌐 Python | 📅 2026-06-27 (2022) - A firmware fuzzer that models memory-mapped I/O accesses to test microcontroller firmware without full peripheral emulation.
 * [Hoedur](https://github.com/fuzzware-fuzzer/hoedur) ⭐ 73 | 🐛 3 | 🌐 Rust | 📅 2025-05-12 (2023) - An embedded firmware fuzzer that uses multiple input streams to represent interactions with different hardware interfaces.
 
 ### Hypervisors & Virtual Devices
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-12._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-13._

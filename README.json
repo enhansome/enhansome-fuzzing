@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3932,
+            "stars": 3933,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -64,7 +64,7 @@
                     "open_issues": 2,
                     "owner": "purseclab",
                     "repo": "fuzzusb",
-                    "stars": 37,
+                    "stars": 38,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:42:49.031Z"
@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-11-08T14:33:03Z",
-                "open_issues": 24,
+                "last_commit": "2026-11-13T06:15:51Z",
+                "open_issues": 25,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6869,
+                "stars": 6870,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2679,
+                "stars": 2681,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-12T12:47:22Z",
-                "open_issues": 652,
+                "last_commit": "2026-11-13T11:50:54Z",
+                "open_issues": 649,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6409,
+                "stars": 6410,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -796,6 +796,27 @@
             },
             {
               "node_type": "item",
+              "title": "FuzzUSB",
+              "description": "A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 471225362,
+                "language": "C",
+                "license": null,
+                "last_commit": "2022-05-11T04:50:08Z",
+                "open_issues": 2,
+                "owner": "purseclab",
+                "repo": "fuzzusb",
+                "stars": 38,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T17:42:49.031Z"
+            },
+            {
+              "node_type": "item",
               "title": "FuzzNG",
               "description": "A Linux kernel syscall fuzzer designed to minimize reliance on manually written system call descriptions.",
               "children": [],
@@ -814,27 +835,6 @@
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
-            },
-            {
-              "node_type": "item",
-              "title": "FuzzUSB",
-              "description": "A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 471225362,
-                "language": "C",
-                "license": null,
-                "last_commit": "2022-05-11T04:50:08Z",
-                "open_issues": 2,
-                "owner": "purseclab",
-                "repo": "fuzzusb",
-                "stars": 37,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T17:42:49.031Z"
             },
             {
               "node_type": "item",
@@ -1481,7 +1481,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 393,
+                "stars": 394,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-12T13:59:14.095Z",
+    "last_updated": "2026-11-13T13:26:20.362Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1913,7 +1913,7 @@
       "open_issues": 1,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 1025,
+      "stars": 1026,
       "topics": [
         "awesome",
         "awesome-list",
