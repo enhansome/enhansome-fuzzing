@@ -627,8 +627,8 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,870 | 🐛 25 | 🌐 C | 📅 2026-11-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,681 | 🐛 138 | 🌐 Rust | 📅 2026-11-02 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,877 | 🐛 26 | 🌐 C | 📅 2026-11-13 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,684 | 🐛 138 | 🌐 Rust | 📅 2026-11-02 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 988 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 958 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 * [QSYM](https://github.com/sslab-gatech/qsym) ⚠️ Archived (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
@@ -645,7 +645,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### Kernel
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,410 | 🐛 649 | 🌐 Go | 📅 2026-11-13 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,412 | 🐛 654 | 🌐 Go | 📅 2026-11-14 (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows.
 * [Trinity](https://github.com/kernelslacker/trinity) ⭐ 911 | 🐛 1 | 🌐 C | 📅 2026-11-11 (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 * [kAFL](https://github.com/rub-syssec/kafl) ⭐ 597 | 🐛 15 | 🌐 Python | 📅 2019-01-10 (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 * [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 388 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 (2017) - An interface-aware fuzzer for Linux kernel drivers that automatically recovers ioctl interfaces via LLVM analysis and generates targeted test cases.
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-14._

@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-11-13T06:15:51Z",
-                "open_issues": 25,
+                "last_commit": "2026-11-13T16:31:20Z",
+                "open_issues": 26,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6870,
+                "stars": 6877,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2681,
+                "stars": 2684,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-13T11:50:54Z",
-                "open_issues": 649,
+                "last_commit": "2026-11-14T03:01:03Z",
+                "open_issues": 654,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6410,
+                "stars": 6412,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-13T13:26:20.362Z",
+    "last_updated": "2026-11-14T12:30:24.881Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
@@ -1910,10 +1910,10 @@
       "language": "Python",
       "license": "CC0-1.0",
       "last_commit": "2026-09-14T06:12:02Z",
-      "open_issues": 1,
+      "open_issues": 2,
       "owner": "cpuu",
       "repo": "awesome-fuzzing",
-      "stars": 1026,
+      "stars": 1028,
       "topics": [
         "awesome",
         "awesome-list",
