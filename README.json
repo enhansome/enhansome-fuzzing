@@ -100,10 +100,10 @@
                 "language": "C",
                 "license": "AGPL-3.0",
                 "last_commit": "2026-11-15T10:42:41Z",
-                "open_issues": 20,
+                "open_issues": 22,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6879,
+                "stars": 6886,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -136,8 +136,8 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-02T11:24:33Z",
-                "open_issues": 139,
+                "last_commit": "2026-11-16T05:18:29Z",
+                "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
                 "stars": 2685,
@@ -424,11 +424,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T03:01:03Z",
-                "open_issues": 656,
+                "last_commit": "2026-11-16T13:07:15Z",
+                "open_issues": 655,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6413,
+                "stars": 6415,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -605,7 +605,7 @@
                 "open_issues": 2,
                 "owner": "seemoo-lab",
                 "repo": "VirtFuzz",
-                "stars": 135,
+                "stars": 136,
                 "topics": [
                   "fuzzing",
                   "libafl",
@@ -789,7 +789,7 @@
                 "open_issues": 11,
                 "owner": "seclab-fudan",
                 "repo": "SyzDirect",
-                "stars": 42,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -1481,7 +1481,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 394,
+                "stars": 396,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-15T12:57:42.593Z",
+    "last_updated": "2026-11-16T14:00:24.397Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
