@@ -627,14 +627,14 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 
 ### File
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,896 | 🐛 20 | 🌐 C | 📅 2026-11-20 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,899 | 🐛 20 | 🌐 C | 📅 2026-11-20 (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 * [LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,688 | 🐛 139 | 🌐 Rust | 📅 2026-11-16 (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 * [Driller](https://github.com/shellphish/driller) ⭐ 988 | 🐛 37 | 🌐 Python | 📅 2025-03-24 (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 * [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 957 | 🐛 41 | 🌐 C++ | 📅 2022-07-18 (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 * [QSYM](https://github.com/sslab-gatech/qsym) ⚠️ Archived (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
 * [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 575 | 🐛 15 | 🌐 C | 📅 2022-11-28 (2021) - A Windows application fuzzer that combines harness synthesis with fast process cloning to test code beyond graphical interfaces.
 * [AFLGo](https://github.com/aflgo/aflgo) ⭐ 563 | 🐛 22 | 🌐 C | 📅 2024-03-13 (2017) - An AFL-based directed greybox fuzzer that generates inputs to reach specified target locations in a program.
-* [AFLFast](https://github.com/mboehme/aflfast) ⭐ 424 | 🐛 1 | 🌐 C | 📅 2023-06-16 (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
+* [AFLFast](https://github.com/mboehme/aflfast) ⭐ 425 | 🐛 1 | 🌐 C | 📅 2023-06-16 (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
 * [REDQUEEN](https://github.com/RUB-SysSec/redqueen) ⭐ 402 | 🐛 4 | 🌐 Python | 📅 2021-09-23 (2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.
 * [MOpt-AFL](https://github.com/puppet-meteor/MOpt-AFL) ⭐ 215 | 🐛 2 | 🌐 C | 📅 2021-01-26 (2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.
 * [VUzzer](https://github.com/vusec/vuzzer64) ⭐ 184 | 🐛 14 | 🌐 C++ | 📅 2022-03-29 (2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.
@@ -656,7 +656,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 * [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 115 | 🐛 6 | 🌐 F# | 📅 2021-10-21 (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
 * [IMF](https://github.com/SoftSec-KAIST/IMF) ⭐ 112 | 🐛 2 | 🌐 Python | 📅 2022-01-22 (2017) - A kernel API fuzzer that leverages automated API model inference to discover vulnerabilities in macOS kernel APIs.
 * [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 102 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
-* [KextFuzz](https://github.com/vul337/KextFuzz) ⭐ 98 | 🐛 0 | 🌐 Python | 📅 2023-08-31 (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
+* [KextFuzz](https://github.com/vul337/KextFuzz) ⭐ 98 | 🐛 0 | 🌐 Python | 📅 2026-11-22 (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
 * [PeriScope](https://github.com/securesystemslab/periscope) ⭐ 72 | 🐛 0 | 🌐 C | 📅 2019-03-27 (2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.
 * [SyzGen](https://github.com/seclab-ucr/SyzGen_setup) ⭐ 49 | 🐛 3 | 🌐 Go | 📅 2021-10-28 (2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.
 * [ACTOR](https://github.com/ucsb-seclab/actor) ⭐ 43 | 🐛 1 | 🌐 Go | 📅 2024-05-06 (2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.
@@ -748,4 +748,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-22._
