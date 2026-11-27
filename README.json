@@ -19,7 +19,7 @@
             "open_issues": 28,
             "owner": "antonio-morales",
             "repo": "Fuzzing101",
-            "stars": 3944,
+            "stars": 3946,
             "topics": [
               "afl",
               "afl-fuzz",
@@ -99,11 +99,11 @@
                 "id": 189044704,
                 "language": "C",
                 "license": "AGPL-3.0",
-                "last_commit": "2026-11-20T11:05:36Z",
-                "open_issues": 22,
+                "last_commit": "2026-11-27T03:51:22Z",
+                "open_issues": 21,
                 "owner": "AFLplusplus",
                 "repo": "AFLplusplus",
-                "stars": 6911,
+                "stars": 6914,
                 "topics": [
                   "afl",
                   "afl-compiler",
@@ -140,7 +140,7 @@
                 "open_issues": 140,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2694,
+                "stars": 2695,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -295,7 +295,7 @@
                 "open_issues": 1,
                 "owner": "mboehme",
                 "repo": "aflfast",
-                "stars": 425,
+                "stars": 422,
                 "topics": []
               },
               "first_seen": "2026-09-14T10:58:51.509Z"
@@ -424,8 +424,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T13:51:51Z",
-                "open_issues": 656,
+                "last_commit": "2026-11-27T15:08:22Z",
+                "open_issues": 659,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6425,
@@ -1901,7 +1901,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-26T15:47:54.466Z",
+    "last_updated": "2026-11-27T15:36:02.492Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of awesome Fuzzing(or Fuzz Testing) for software security",
